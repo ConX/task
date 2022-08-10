@@ -42,6 +42,8 @@ type Executor struct {
 	Color       bool
 	Concurrency int
 
+	UpdateParentTaskStatus bool
+
 	Stdin  io.Reader
 	Stdout io.Writer
 	Stderr io.Writer

@@ -54,25 +54,26 @@ func main() {
 	}
 
 	var (
-		versionFlag bool
-		helpFlag    bool
-		init        bool
-		list        bool
-		listAll     bool
-		status      bool
-		force       bool
-		watch       bool
-		verbose     bool
-		silent      bool
-		dry         bool
-		summary     bool
-		exitCode    bool
-		parallel    bool
-		concurrency int
-		dir         string
-		entrypoint  string
-		output      taskfile.Output
-		color       bool
+		versionFlag            bool
+		helpFlag               bool
+		init                   bool
+		list                   bool
+		listAll                bool
+		status                 bool
+		force                  bool
+		watch                  bool
+		verbose                bool
+		silent                 bool
+		dry                    bool
+		summary                bool
+		exitCode               bool
+		parallel               bool
+		concurrency            int
+		dir                    string
+		entrypoint             string
+		output                 taskfile.Output
+		color                  bool
+		updateParentTaskStatus bool
 	)
 
 	pflag.BoolVar(&versionFlag, "version", false, "show Task version")
@@ -96,6 +97,7 @@ func main() {
 	pflag.StringVar(&output.Group.End, "output-group-end", "", "message template to print after a task's grouped output")
 	pflag.BoolVarP(&color, "color", "c", true, "colored output. Enabled by default. Set flag to false or use NO_COLOR=1 to disable")
 	pflag.IntVarP(&concurrency, "concurrency", "C", 0, "limit number tasks to run concurrently")
+	pflag.BoolVar(&updateParentTaskStatus, "updateParentTaskStatus", true, `Force runs parent tasks if any of the dependency tasts are "out-of-date"`)
 	pflag.Parse()
 
 	if versionFlag {
@@ -157,6 +159,8 @@ func main() {
 		Stderr: os.Stderr,
 
 		OutputStyle: output,
+
+		UpdateParentTaskStatus: updateParentTaskStatus,
 	}
 
 	if (list || listAll) && silent {
