@@ -97,7 +97,7 @@ func main() {
 	pflag.StringVar(&output.Group.End, "output-group-end", "", "message template to print after a task's grouped output")
 	pflag.BoolVarP(&color, "color", "c", true, "colored output. Enabled by default. Set flag to false or use NO_COLOR=1 to disable")
 	pflag.IntVarP(&concurrency, "concurrency", "C", 0, "limit number tasks to run concurrently")
-	pflag.BoolVar(&updateParentTaskStatus, "updateParentTaskStatus", true, `Force runs parent tasks if any of the dependency tasts are "out-of-date"`)
+	pflag.BoolVar(&updateParentTaskStatus, "update-parent-task-status", true, `Force runs parent tasks if any of the dependency tasts are "out-of-date"`)
 	pflag.Parse()
 
 	if versionFlag {
@@ -218,6 +218,13 @@ func main() {
 		}
 		return
 	}
+
+	aretaskUpToDate := make(map[string]bool)
+	// taskStr := make(map[string][]string)
+	// taskStr, aretaskUpToDate = e.CreateTaskDAG(ctx, taskStr, aretaskUpToDate, calls...)
+
+	aretaskUpToDate = e.CheckStatusOfTaskAndDeps(ctx, aretaskUpToDate, calls...)
+	fmt.Println(aretaskUpToDate)
 
 	if err := e.Run(ctx, calls...); err != nil {
 		e.Logger.Errf(logger.Red, "%v", err)

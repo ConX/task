@@ -1,0 +1,2835 @@
+[33mcommit f2c5d1139c36d094d8472ab5905a75f5488460d6[m[33m ([m[1;36mHEAD -> [m[1;32mupdateParentTaskStatus[m[33m)[m
+Author: Kenil Patel <kenilpatel500@gmail.com>
+Date:   Wed Aug 10 17:46:38 2022 +0000
+
+    Created a command line argument 'UpdateParentTaskStatus'
+
+[33mcommit c4e10ef0aaa501f2eff9496c231452d9c2172fe5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Aug 6 18:19:07 2022 -0300
+
+    Refactor: Add SmartJoin to handle IsAbs automatically
+
+[33mcommit c20842e7cd9b7a07ade0410f34fb51dd912593cb[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Aug 3 22:26:39 2022 -0300
+
+    v3.14.1: Add CHANGELOG to website
+
+[33mcommit 6cfdb213134566219aa6ca16074408e9f3d44d8f[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Aug 3 22:08:17 2022 -0300
+
+    v3.14.1
+
+[33mcommit e396f4d06fa2087c93afd400d2cd202d5a644d6c[m
+Author: Bevan Arps <bevan.arps@microsoft.com>
+Date:   Tue Jul 26 10:10:16 2022 +1200
+
+    Resolve relative include paths relative to the including Taskfile
+    
+    Closes #823
+    Closes #822
+
+[33mcommit 47c1bb6a5b5541e6d3c44ed675fe9d805991dffa[m
+Merge: adfb0b5 7ac75af
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Aug 3 21:00:52 2022 -0300
+
+    Merge pull request #816 from go-task/dependabot/npm_and_yarn/docs/terser-5.14.2
+    
+    Bump terser from 5.13.1 to 5.14.2 in /docs
+
+[33mcommit adfb0b513e8af36ea4bff5d6fa15470a441bc6e0[m
+Merge: a1c32a5 98d78b9
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Aug 3 21:00:44 2022 -0300
+
+    Merge pull request #827 from go-task/go-1-19
+    
+    Upgrade to Go v1.19
+
+[33mcommit 98d78b9d8ab867768b7c7d893fce296ab1c9d37e[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Aug 3 20:49:46 2022 -0300
+
+    Upgrade to Go v1.19
+
+[33mcommit a1c32a56eaeb6b98a7c9201e6219ed5350005d5c[m
+Merge: b3c283b 6584bcf
+Author: Wes McNamee <ghost.squadron@gmail.com>
+Date:   Wed Jul 27 23:36:25 2022 -0700
+
+    Merge pull request #817 from white-gecko/patch-1
+    
+    Resolve contradiction.
+
+[33mcommit 6584bcf87f14e7dcbdfbb2c8c5e1eaefca41d4b1[m
+Author: Natanael Arndt <arndtn@gmail.com>
+Date:   Thu Jul 21 14:30:51 2022 +0200
+
+    Resolve contradiction.
+
+[33mcommit 7ac75af6221464c4c8a724a88c5fd2fbcf2a1454[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Jul 21 05:16:51 2022 +0000
+
+    Bump terser from 5.13.1 to 5.14.2 in /docs
+    
+    Bumps [terser](https://github.com/terser/terser) from 5.13.1 to 5.14.2.
+    - [Release notes](https://github.com/terser/terser/releases)
+    - [Changelog](https://github.com/terser/terser/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/terser/terser/commits)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: terser
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit b3c283b282a4ef1f5fbeb6ff2304e248584f1be2[m
+Merge: 789518f c2615dd
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 18 10:30:57 2022 -0300
+
+    Merge pull request #814 from abner-chenc/master
+    
+    go.mod: update to current golang.org/x/sys revision
+
+[33mcommit c2615dd746b7265bce320a97742b045ec360b752[m
+Author: Guoqi Chen <chenguoqi@loongson.cn>
+Date:   Mon Jul 18 10:07:08 2022 +0800
+
+    go.mod: update to current golang.org/x/sys revision
+    
+    go get -d golang.org/x/sys@c0bba94af5f85fbad9f6dc2e04ed5b8fac9696cf
+    go mod tidy
+    
+    This brings in linux/loong64 support.
+
+[33mcommit 789518f70dfb4597aa3c93a3d4d6a0afc0de9b02[m
+Merge: 3da4266 ad3008d
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 16 23:28:31 2022 -0300
+
+    Merge pull request #811 from go-task/imgbot
+    
+    [ImgBot] Optimize images
+
+[33mcommit ad3008d85584927f22ab4c4d52105f8ae48e6c7a[m
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Sun Jul 17 02:23:11 2022 +0000
+
+    [ImgBot] Optimize images
+    
+    *Total -- 61.47kb -> 34.61kb (43.69%)
+    
+    /docs/static/img/pix.png -- 12.63kb -> 1.25kb (90.13%)
+    /docs/static/img/logo.png -- 21.79kb -> 13.21kb (39.38%)
+    /docs/static/img/og-image.png -- 26.26kb -> 19.38kb (26.2%)
+    /docs/static/img/logo.svg -- 0.44kb -> 0.42kb (2.47%)
+    /docs/static/img/logo_mono.svg -- 0.36kb -> 0.35kb (1.37%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+[33mcommit 3da426603f6bbca4bc79bd394b07f6bc81a330f5[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 16 22:54:47 2022 -0300
+
+    Website: Improve "Install Script" documentation
+    
+    Add note about common installation paths.
+    
+    Closes #775
+
+[33mcommit 8d26e34b0ab5b952d99b9b035d3bccdf67cb4dc4[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 16 22:07:24 2022 -0300
+
+    Use `--list-all` to PowerShell completion + Add CHANGELOG to #803
+
+[33mcommit 110d1d7245bd940baa857a1331af80369f79d9b1[m
+Merge: f738462 5d24e16
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 16 21:38:50 2022 -0300
+
+    Merge pull request #803 from carlsmedstad/zsh-completion
+    
+    Fix Zsh completion for tasks without description
+
+[33mcommit f7384623df62166885ece874350cd7d145a65df5[m
+Merge: d9ec5bc f787937
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 16 21:37:19 2022 -0300
+
+    Merge pull request #802 from nokome/patch-1
+    
+    Update api_reference.md
+
+[33mcommit 5d24e166abc7f0bbfa03f8314f85e2b0dcac0268[m
+Author: Carl Smedstad <carl.smedstad@protonmail.com>
+Date:   Sun Jul 10 01:43:47 2022 +0200
+
+    Fix Zsh completion for tasks without description
+    
+    Use --list-all instead of --list in order include tasks without
+    description in the auto-completion.
+
+[33mcommit d9ec5bcd242975cc131f42c996c82db8c46b47c7[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jul 8 15:19:32 2022 -0300
+
+    v3.14.0
+
+[33mcommit bf9cd7625bdc9510a309b09a3b47b0fd4b23ac8e[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jul 8 15:16:04 2022 -0300
+
+    Refactor task.Setup(): Move to its own file and split in separated functions
+
+[33mcommit afbf98c9743b8b72a3311fb468409e634a1f6154[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jul 8 14:49:52 2022 -0300
+
+    Website: Add ENV section to API page
+
+[33mcommit fedb68cde72fca0b6ec823148ec94fc5a0b4d9c3[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jul 8 14:40:10 2022 -0300
+
+    Allow override the `.task` dir location with the `TASK_TEMP_DIR` env
+
+[33mcommit f787937a30e39484dcdefc098fa28b3a7a07cd70[m
+Author: Nokome Bentley <nokome@stenci.la>
+Date:   Fri Jul 8 14:01:41 2022 +1200
+
+    Update api_reference.md
+    
+    Using `cmd` (singular) with a single string is valid syntax also.
+
+[33mcommit f54fef7e7b55704bc02df50a470f16479bfabf96[m
+Author: Alexander Mancevice <alexander.mancevice@hey.com>
+Date:   Mon Jun 27 21:47:56 2022 -0400
+
+    Allow users to override colors using environment variables
+    
+    Closes #568
+    Closes #792
+
+[33mcommit e36c77aaf3ed88be1583868288958bb272534fa0[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Jul 6 10:43:32 2022 -0300
+
+    Fix bug with STDOUT and STDERR in the "group" output mode
+    
+    Took the oportunity to refactor a bit how we handle closing of the streams.
+    
+    Fixes #779
+
+[33mcommit de45e48c37ed1c6bb4d0a63941a0be3ef9127239[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 4 11:49:15 2022 -0300
+
+    Release ARM binaries to Snap. Deprecate i386
+    
+    Actually done here: https://github.com/go-task/snap/blob/master/snap/snapcraft.yaml
+    
+    Closes #795
+
+[33mcommit ef0ce8224e4b8504f56f69aa6cc672043f4fa638[m
+Merge: 5b4d538 1be1fcc
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 4 11:18:25 2022 -0300
+
+    Merge pull request #797 from go-task/dependabot/go_modules/github.com/stretchr/testify-1.8.0
+    
+    Bump github.com/stretchr/testify from 1.7.2 to 1.8.0
+
+[33mcommit 5b4d5387bfeeacc2df025082570650317ef62633[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 4 11:14:20 2022 -0300
+
+    Website: Link to Twitter account
+
+[33mcommit 5c460b38c931e313963b2f6f85e0ed3b1986eeed[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 4 10:50:03 2022 -0300
+
+    Website: Add more entries to the Community page
+
+[33mcommit 8b836ab446d8439fa9a35081d56351ef8354f24a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 4 10:44:17 2022 -0300
+
+    CHANGELOG: Mention #769 forggoten on SIGINT entry
+
+[33mcommit 1be1fccc7610eeed84abf37682c4fbccce3a8505[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Jul 4 13:41:49 2022 +0000
+
+    Bump github.com/stretchr/testify from 1.7.2 to 1.8.0
+    
+    Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.2 to 1.8.0.
+    - [Release notes](https://github.com/stretchr/testify/releases)
+    - [Commits](https://github.com/stretchr/testify/compare/v1.7.2...v1.8.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: github.com/stretchr/testify
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 2c1fda97f0906489384f5b74d43c877a22f1c46b[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jul 4 10:37:49 2022 -0300
+
+    Upgrade mvdan.cc/sh, which fixes a bug with associative arrays
+    
+    Fixes #785
+
+[33mcommit 71f7b719b5a39aad17658c8f8aae7f5be1261a58[m
+Merge: e39006b 37d07d4
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jun 27 17:52:18 2022 -0300
+
+    Merge pull request #791 from MPLew-is/patch-1
+    
+    Correct `method: timestamp` example block in usage docs
+
+[33mcommit e39006b511487c6219b893da89a39a29456ebf31[m
+Merge: 7707179 b80c8f7
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jun 27 17:51:17 2022 -0300
+
+    Merge pull request #790 from Trim21/patch-2
+    
+    docs: scoop extra bucket is not required anymore
+
+[33mcommit 37d07d415ae34d6ec07c4cc59f03722d3d83f614[m
+Author: Mike Lewis <mike@mplew.is>
+Date:   Mon Jun 27 14:06:25 2022 -0600
+
+    Correct `method: timestamp` example block
+    
+    The text above this block currently references a `timestamp` method for checking if a task should be run, then the example uses `checksum` instead.
+
+[33mcommit b80c8f78fc49cfebb098d1d6b2b97b05a31e1038[m
+Author: Trim21 <trim21me@gmail.com>
+Date:   Tue Jun 28 03:22:32 2022 +0800
+
+    extra bucket is not required anymore
+
+[33mcommit 7707179b9302d101164eba834ab0f2c44ad911a4[m
+Merge: 0c46fa5 4e7d8ba
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jun 21 18:08:47 2022 -0300
+
+    Merge pull request #783 from ssbarnea/fix/gha-group
+    
+    Fix GHA grouping examples
+
+[33mcommit 4e7d8bacdbe1f3b3fb7b1f0f2391b3cb507d7162[m
+Author: Sorin Sbarnea <ssbarnea@redhat.com>
+Date:   Tue Jun 21 17:40:11 2022 +0100
+
+    Fix GHA grouping examples
+    
+    Our example was not using the correct syntax required for grouping
+    command output on GHA.
+
+[33mcommit 0c46fa5a561946e967c7c0ac6d041f88466bf16c[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 17 10:05:11 2022 -0300
+
+    Website: Fix typo
+
+[33mcommit 36aca00de3e5b566b8d0cc03afa3c819a0857207[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Jun 15 14:33:15 2022 -0300
+
+    Website: Update link
+
+[33mcommit 0ec8cf1b53ceeb855f47f2755f7bdb1cb7be13cd[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Jun 15 10:02:45 2022 -0300
+
+    Hide signals tests behind a build tag
+    
+    Testing signals requires additional executables to be available in the $PATH
+    and can intermittently fail as well.
+    
+    Add a build tag, which means these specific tests will only run when requested.
+    
+    Closes #780
+
+[33mcommit 4b2b713e59a9caf0d58fd6c99ee358727ea975e7[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jun 13 21:08:26 2022 -0300
+
+    v3.13.0
+
+[33mcommit cc0afce2374d5a24198b314c6d4c700e4e22b534[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jun 13 21:02:57 2022 -0300
+
+    Add CHANGELOG entry for #777
+
+[33mcommit 620f3fc919dcd77c523818d5a26f6b85baab594e[m
+Merge: af949ef 475c5dc
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jun 13 21:00:41 2022 -0300
+
+    Merge pull request #777 from ascheman/feature/776-add-n-for-dry-run
+    
+    Add `-n` as short cut for `--dry` - solves #776
+
+[33mcommit af949ef0dd30f1984c9846773f2a973563e842fc[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jun 13 20:41:15 2022 -0300
+
+    Restore @sisp work on SVG logos
+    
+    This was unintentionally lost on the website migration from Docsify to
+    Docusaurus.
+    
+    Ref #725
+    Ref #726
+    Closes #772
+    
+    Co-authored by: Sigurd Spieckermann <sigurd.spieckermann@gmail.com>
+
+[33mcommit 475c5dc19ab85569e240d8bb6dbbf60756cd3239[m
+Author: Gerd Aschemann <github@aschemann.net>
+Date:   Mon Jun 13 12:41:20 2022 +0200
+
+    Add `-n` as short cut for `--dry` - solves #776
+
+[33mcommit 71cfe2364ae6603545bf6262916beebcf95ff259[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Jun 12 17:33:22 2022 -0300
+
+    Website: Add a decent Open Graph image
+
+[33mcommit c1466f8aca223f351d0c73d95e6f166f7cfdb8e6[m
+Merge: c9a582f 7989f73
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 23:01:51 2022 -0300
+
+    Merge pull request #769 from go-task/fix-signals
+    
+    Fix behavior of interrupt (SIGINT, SIGTERM) signals
+
+[33mcommit 7989f73f061428e617dba742437b4463466589d8[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 21:32:06 2022 -0300
+
+    Fix behavior of interrupt (SIGINT, SIGTERM) signals
+    
+    Task will now give time for the processes running to do cleanup work
+    
+    Ref #458
+    Ref #479
+    Fixes #728
+    
+    Co-authored-by: Marco Molteni <marco.molteni@pix4d.com>
+    Co-authored-by: aliculPix4D <aleksandar.licul_ext@pix4d.com>
+
+[33mcommit c9a582fbcc81aa86fe9e5b9b38fb8de10c342583[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 20:01:48 2022 -0300
+
+    Add CHANGELOG, documentation and make small adjutsment for #755
+
+[33mcommit 63aad1e50113e7178706d1368bef0112d0edf58f[m
+Merge: 16ba122 752d9d5
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 19:53:24 2022 -0300
+
+    Merge pull request #755 from BrunoDelor/feature/carry-error-code
+    
+    Add --exit-code (-x) flag to enable carrying error codes from task cmds
+
+[33mcommit 16ba12239c4cbda7f914349cc48cf2f5d3b087f2[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 19:17:29 2022 -0300
+
+    Website: Installation: Fix markdown
+
+[33mcommit b00ae9256bad9ad01144959b3434608c1efd7bc6[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 19:16:11 2022 -0300
+
+    docs/Taskfile.yml: Allow to change server port
+
+[33mcommit 936045e01cf31441aff2c02560e8dcd3fa759f1d[m
+Merge: b1570ab f066e3b
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 19:10:37 2022 -0300
+
+    Merge pull request #767 from mefuller/patch-1
+    
+    Add Fedora Linux to installation
+
+[33mcommit b1570ab117c8675bc313c8da6b28a1f8ba994eb5[m
+Merge: 9f244b9 1487c0e
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 11 19:04:38 2022 -0300
+
+    Merge pull request #766 from go-task/dependabot/go_modules/github.com/stretchr/testify-1.7.2
+    
+    Bump github.com/stretchr/testify from 1.7.1 to 1.7.2
+
+[33mcommit f066e3b1e0bc6f1653b4c6589d80f11d2a6ec3ec[m
+Author: Mark E Fuller <mark.e.fuller@gmx.de>
+Date:   Tue Jun 7 21:36:45 2022 +0300
+
+    Add Fedora Linux to installation
+    
+    Added Task to Fedora official repositories
+
+[33mcommit 1487c0e51b5460ad70ce4bc0f4412d79e1c626b4[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Jun 11 11:04:02 2022 +0000
+
+    Bump github.com/stretchr/testify from 1.7.1 to 1.7.2
+    
+    Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.1 to 1.7.2.
+    - [Release notes](https://github.com/stretchr/testify/releases)
+    - [Commits](https://github.com/stretchr/testify/compare/v1.7.1...v1.7.2)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: github.com/stretchr/testify
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 9f244b9bd9f4ccab4d879fc93bb7e4d6acaea130[m
+Merge: 374ec27 21a2f9f
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 10 10:11:57 2022 -0300
+
+    Merge pull request #765 from lhuang61/master
+    
+    Fix typo
+
+[33mcommit 374ec27ab56691c4ac96919972366dd73b6c3678[m
+Merge: b222c34 8a74141
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 10 10:11:34 2022 -0300
+
+    Merge pull request #759 from Cornul11/patch-1
+    
+    fixed grammatical errors
+
+[33mcommit b222c34f127633648bc14772fcfee6c287859895[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 10 10:05:30 2022 -0300
+
+    Website: Rename Logo.png -> logo.png
+
+[33mcommit 007a096632ee6630afacc200b62d5676338edfb3[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 10 10:03:37 2022 -0300
+
+    Website: Adjustment on Algolia Search
+
+[33mcommit 26e02e377306ca6d6b6213016c059d3c0b8c7b1a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 10 09:52:18 2022 -0300
+
+    Website: Attemp to fix og:image meta tag
+
+[33mcommit b8668ca3ce0a59e57d6ca9d0986ac5e668407970[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jun 10 09:47:53 2022 -0300
+
+    Website: Enable search powered by Algolia
+    
+    https://docusaurus.io/docs/search#using-algolia-docsearch
+
+[33mcommit 21a2f9f93b652a5ba5d2ca20bd120bbf38abf3f0[m
+Author: Lei Huang <lei.huang@innablr.com.au>
+Date:   Fri Jun 10 17:18:20 2022 +1000
+
+    Fix typo
+
+[33mcommit 8a74141e4b93f5de78ef2349d6aeff2ea7af7257[m
+Author: Dan <cornul11@gmail.com>
+Date:   Tue Jun 7 16:06:52 2022 +0200
+
+    fixed grammatical errors
+
+[33mcommit 752d9d5316fefbb0a4711b5b8fc1c81d50b2353f[m
+Author: Bruno Delor <bruno@brunodelor.info>
+Date:   Mon Jun 6 09:46:27 2022 +0200
+
+    Renames option to align with existing tools
+    
+    Shorthand: -x
+    Longhand: --exit-code
+
+[33mcommit 58c7cc5d05fa20318a34f1c2bebbb5ca3936fc07[m
+Author: Bruno Delor <bruno@brunodelor.info>
+Date:   Thu Jun 2 16:39:28 2022 +0200
+
+    Adds test TestErrorCode
+
+[33mcommit a790fb7afe3d29ee5da29d312a88a22cee244e74[m
+Author: Bruno Delor <bruno@brunodelor.info>
+Date:   Thu Jun 2 14:22:00 2022 +0200
+
+    Adds --carry flag to enable carrying error codes from task cmds
+
+[33mcommit 5836cb17284afea972b8c06f80a6f3ccd0b2374d[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Jun 1 22:57:50 2022 -0300
+
+    Website: Add link to GitHub Sponsors
+
+[33mcommit 19fd219409f432ccf716716c05b26a02df5a6677[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Jun 1 22:37:38 2022 -0300
+
+    Update FUNDING.yml
+
+[33mcommit 43f99e0bf782855bbf5af09e9333ed9a24e94539[m
+Merge: 3f9c177 6f83f6c
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue May 31 18:40:06 2022 -0300
+
+    Merge pull request #750 from go-task/api-reference
+    
+    taskfile.dev: Add page with API Reference
+
+[33mcommit 6f83f6c1b56c6f46dee4205da75a10ac57f16b00[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon May 30 23:25:01 2022 -0300
+
+    taskfile.dev: Add page with API Reference
+
+[33mcommit 3f9c177d76c7da3341938445f6f25b77a45d10ca[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue May 31 18:22:56 2022 -0300
+
+    Goreleaser / GitHub Actions: Update committer
+
+[33mcommit 55dd7e20a0aeaaeb43a9926e317b9e4b84786865[m
+Merge: 1b6d421 bfbf29b
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 29 20:21:47 2022 -0300
+
+    Merge pull request #747 from go-task/yaml.v3
+    
+    go.mod: Upgrade to gopkg.in/yaml.v3
+
+[33mcommit bfbf29b78f7b2318d8584fffaedd07dde3fcf205[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 29 20:14:42 2022 -0300
+
+    go.mod: Upgrade to gopkg.in/yaml.v3
+
+[33mcommit 1b6d421a5b504133b4e94bf4f76354565bc8f8b0[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 29 18:58:03 2022 -0300
+
+    Fix missing https://taskfile.dev/install.sh
+    
+    Fixes #746
+
+[33mcommit 112d9c4086f1aed97077c6c18a170adb959e2f23[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 29 14:36:27 2022 -0300
+
+    README: Fix logo path
+
+[33mcommit adb089dc78aa97bbadd28aba3e5a183ab940e87e[m
+Merge: f4d5abf 5024d27
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 29 14:32:01 2022 -0300
+
+    Merge pull request #745 from go-task/migrate-to-docusaurus
+    
+    Migrate website to Docusaurus
+
+[33mcommit 5024d270ecd6e5e9de075e88dd31600980606860[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 29 14:15:01 2022 -0300
+
+    Migrate website to Docusaurus
+    
+    https://docusaurus.io/
+
+[33mcommit f4d5abfc5b4783d150ffdaafc5e8e133a8243702[m
+Merge: d35141a f55cf3a
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri May 27 15:31:18 2022 -0300
+
+    Merge pull request #743 from go-task/dependabot/go_modules/mvdan.cc/sh/v3-3.5.1
+    
+    Bump mvdan.cc/sh/v3 from 3.5.0 to 3.5.1
+
+[33mcommit f55cf3ab8dd2f3262f62eb13300a60b9ca71ce73[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri May 27 18:24:08 2022 +0000
+
+    Bump mvdan.cc/sh/v3 from 3.5.0 to 3.5.1
+    
+    Bumps [mvdan.cc/sh/v3](https://github.com/mvdan/sh) from 3.5.0 to 3.5.1.
+    - [Release notes](https://github.com/mvdan/sh/releases)
+    - [Changelog](https://github.com/mvdan/sh/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mvdan/sh/compare/v3.5.0...v3.5.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: mvdan.cc/sh/v3
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit d35141a369b5bbe3b06d02261f3499ccfbc9c276[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed May 25 09:41:53 2022 -0300
+
+    Fix link to Discord server
+    
+    I didn't know links to Discord servers had an expiration time :facepalm:
+    
+    This one is unlimited.
+    
+    Ref #742
+
+[33mcommit d4504445960b2a6eef0481227c31e1c9696561bf[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 22 16:54:35 2022 -0300
+
+    Temporarily revert #479
+
+[33mcommit 7e118154094c0292e91b3142a60d935cdc461473[m
+Merge: 017cd4c 7883977
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 22 16:13:04 2022 -0300
+
+    Merge pull request #737 from abrahammurciano/patch-1
+    
+    Mention how label affects rerunning of tasks
+
+[33mcommit 017cd4cd6cbce2e490b6b0be6230f79565998b89[m
+Merge: d5cb842 ac6c2ff
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 22 16:11:24 2022 -0300
+
+    Merge pull request #738 from carlsmedstad/bash-completion
+    
+    Make progname easier to configure in task.{bash,fish}
+
+[33mcommit ac6c2ff769e1ade213b02d558263543c89d22980[m
+Author: Carl Smedstad <carl.smedstad@protonmail.com>
+Date:   Sun May 22 16:52:53 2022 +0200
+
+    Make progname easier to configur in task.fish
+
+[33mcommit c4e8ca4b32e71f4713a18fd0f63f66580fcf07d8[m
+Author: Carl Smedstad <carl.smedstad@protonmail.com>
+Date:   Sun May 22 16:50:47 2022 +0200
+
+    Enable fish tab completion for tasks without description
+
+[33mcommit c9aec2f281a8fb63a193de2f8f0018ab797ddd5b[m
+Author: Carl Smedstad <carl.smedstad@protonmail.com>
+Date:   Sun May 22 16:16:50 2022 +0200
+
+    Make progname easier to configure in task.bash
+    
+    As task is a very generic name that conflicts with for example
+    taskwarrior, some packagers might choose to change it. See my package in
+    the AUR: https://aur.archlinux.org/packages/go-task.
+    
+    This change makes it easier to configure the name for downstream
+    packagers.
+
+[33mcommit 591561f65721f3ae4c349ccd49718e0af2ede04c[m
+Author: Carl Smedstad <carl.smedstad@protonmail.com>
+Date:   Sun May 22 16:15:15 2022 +0200
+
+    Address shellcheck warnings in task.bash
+
+[33mcommit 2ad40541331f643d022101d9269ab038b83170fb[m
+Author: Carl Smedstad <carl.smedstad@protonmail.com>
+Date:   Sun May 22 16:14:04 2022 +0200
+
+    Add extension sh & bash to .editorconfig
+
+[33mcommit 7883977a56aef8543bdd2d023f95e4beede4e538[m
+Author: Abraham Murciano <abrahammurciano@gmail.com>
+Date:   Sun May 22 00:03:22 2022 +0300
+
+    Mention how label affects rerunning of tasks
+
+[33mcommit d5cb842db240774c0e24a1ee4d50b2ea63ca201e[m
+Merge: 1d355d7 03bbb05
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu May 19 10:46:47 2022 -0300
+
+    Merge pull request #733 from wyfo/patch-1
+    
+    Fix interactive task example
+
+[33mcommit 03bbb0571e2f9e2b8d8fa3ec09170154ee2f29db[m
+Author: Joseph Perez <joperez@hotmail.fr>
+Date:   Thu May 19 09:17:55 2022 +0200
+
+    Fix interactive task example
+    
+    A task name is missing in the example.
+
+[33mcommit 1d355d74ef6918d610bb9dea4951097114f3127e[m
+Merge: 7f99135 9e1d4e7
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon May 16 09:34:14 2022 -0300
+
+    Merge pull request #729 from go-task/add-staticcheck
+    
+    Add golangci-lint
+
+[33mcommit 7f9913590e7890b8e015100e87804d4473aced31[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 15 22:14:08 2022 -0300
+
+    taskfile.dev: Fix some Docsify plugins not working
+    
+    Only the Carbon plugin needs to be defined before the `window.$docsify`
+    declaration. Some others have to be after that to work correctly
+    (namely search and tabs).
+
+[33mcommit 9e1d4e78553254428093d2ec6d5921fea7e158be[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat May 14 21:00:15 2022 -0300
+
+    Add golangci-lint
+    
+    https://golangci-lint.run/
+
+[33mcommit a1f9b584dcc1bae6da7dd269bf23db4f8a668d12[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat May 14 19:50:15 2022 -0300
+
+    Remove unneeded log on test
+
+[33mcommit 7d474db76549cafcf20b519badcfa7c4e2d262f8[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat May 14 19:36:15 2022 -0300
+
+    Make signal test work both locally and in CI
+
+[33mcommit 367c0b38a6787bebf6ee5af864be1574ad40b24a[m
+Author: aliculPix4D <aleksandar.licul_ext@pix4d.com>
+Date:   Tue Apr 5 15:56:13 2022 +0200
+
+    fix: remove redundant newline (linter error)
+
+[33mcommit cacd57f72b9727767a7638a8fc2875e9b7043a4e[m
+Author: Marco Molteni <marco.molteni@pix4d.com>
+Date:   Wed Nov 24 12:40:55 2021 +0100
+
+    fix ci test breakage (fork/exec ./bin/task: no such file or directory)
+    
+    On Github actions, the destination path of "go install" ($GOPATH/bin) is not
+    in $PATH, thus the error.
+    For the life of me I could not understand how to change the $PATH environment
+    variable in an Actions workflow, so I encode the full path of the just-built
+    task executable in the tests, which probably was the right thing to do since
+    the beginning.
+
+[33mcommit 22dfc1e265ceb10dc481e8ec09da738788f4d01a[m
+Author: Marco Molteni <marco.molteni@mailbox.org>
+Date:   Thu Apr 22 15:30:52 2021 +0200
+
+    execext.RunCommand: fix: do not pass a cancellable context to mvdan.cc/sh
+    
+    We used to pass to mvdan.cc/sh/interp.Runner a context that was cancelled on
+    reception of a OS signal. This caused the Runner to terminate the subprocess
+    abruptly.
+    
+    The correct behavior instead is for us to completely ignore the signal and let
+    the subprocess deal with it. If the subprocess doesn't handle the signal, it
+    will be terminated. If the subprocess does handle the signal, it knows better
+    than us wether it wants to cleanup and terminate or do something different.
+    
+    So now we pass an empty context just to make the API of interp.Runner happy
+    
+    Fixes go-task/task/#458
+
+[33mcommit bffb6e1a0762f3990f94a172dcd0f647012acdb7[m
+Author: Marco Molteni <marco.molteni@mailbox.org>
+Date:   Tue Apr 20 17:33:01 2021 +0200
+
+    add regression test for SIGINT behavior
+    
+    See go-task/task/#458
+    
+    Helper (sleepit) and test code based on https://github.com/marco-m/timeit
+
+[33mcommit cdff0c60d97a69a7771c2773e7d940942a9622d9[m
+Merge: 6b8d4dd f55eb3c
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed May 11 23:08:09 2022 -0300
+
+    Merge pull request #727 from go-task/dependabot/go_modules/mvdan.cc/sh/v3-3.5.0
+    
+    Bump mvdan.cc/sh/v3 from 3.4.3 to 3.5.0
+
+[33mcommit f55eb3cba9ea7b67512159422c311a64a9d63cdd[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu May 12 02:02:57 2022 +0000
+
+    Bump mvdan.cc/sh/v3 from 3.4.3 to 3.5.0
+    
+    Bumps [mvdan.cc/sh/v3](https://github.com/mvdan/sh) from 3.4.3 to 3.5.0.
+    - [Release notes](https://github.com/mvdan/sh/releases)
+    - [Changelog](https://github.com/mvdan/sh/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mvdan/sh/compare/v3.4.3...v3.5.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: mvdan.cc/sh/v3
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 6b8d4dd101fa4c89f812e53888d809646425140f[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed May 11 22:50:54 2022 -0300
+
+    taskfile.dev: Add link to Discord server
+
+[33mcommit d05e130250458c0d7063ec92c8b5d7f66ca695d2[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed May 11 22:15:41 2022 -0300
+
+    taskfile.dev: Add Carbon
+
+[33mcommit d33e50f36755e2c83175a1efcca87cf1ec859518[m
+Merge: 7d5b9c7 f3c9c53
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed May 11 20:48:47 2022 -0300
+
+    Merge pull request #726 from sisp/logo-mono
+    
+    Add monochromatic SVG logo
+
+[33mcommit f3c9c53b6c5ed4da740e78d33b5b6491b0757627[m
+Author: Sigurd Spieckermann <sigurd.spieckermann@gmail.com>
+Date:   Wed May 11 16:12:10 2022 +0200
+
+    Add monochromatic SVG logo
+
+[33mcommit 7d5b9c78b13c8a2f7616de98d0b99f26427390e4[m
+Merge: ad0b269 e6a4b7b
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed May 11 09:46:26 2022 -0300
+
+    Merge pull request #725 from sisp/logo
+    
+    Clean up SVG logo markup
+
+[33mcommit e6a4b7bbba841a06959f35e2862f31e6326a51d9[m
+Author: Sigurd Spieckermann <sigurd.spieckermann@gmail.com>
+Date:   Wed May 11 14:31:28 2022 +0200
+
+    Clean up SVG logo markup
+
+[33mcommit ad0b269d533b2a37244257c3868fa4112f3ddc8a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue May 10 18:00:45 2022 -0300
+
+    v3.12.1
+
+[33mcommit 54725709585681dffee5ac3e3e500ae9f91d43b2[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon May 9 13:03:19 2022 -0300
+
+    Add docs/Logo.svg
+
+[33mcommit 4576ba4db0fcb272b99eb2589b3743232209c829[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon May 9 11:06:47 2022 -0300
+
+    Website: Add GA manually for now
+    
+    Docsify GA plugin seems to be broken:
+    
+    - https://github.com/docsifyjs/docsify/issues/1695
+    - https://github.com/docsifyjs/docsify/pull/1702
+
+[33mcommit efcfab0955deb80bc40fc96a5794ee0f2d5396b7[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon May 9 09:54:22 2022 -0300
+
+    Website: Re-add GA
+
+[33mcommit 1acd59c7d6f5e8aefca5d4c57e25bacc27fdd20f[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 8 17:33:54 2022 -0300
+
+    Replace \r\n on Windows as we do for \n on Linux
+    
+    Closes #717
+
+[33mcommit 4951a2bf7aa693ce0489293138995d5f3af54946[m
+Merge: b65935d 95fc26d
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 8 17:25:11 2022 -0300
+
+    Merge pull request #718 from budimanjojo/master
+    
+    Fix broken completion when no taskfile is found
+
+[33mcommit 95fc26d4ada850ec58789f5a1aa88dae308c342f[m
+Author: budimanjojo <budimanjojo@gmail.com>
+Date:   Sat May 7 23:20:08 2022 +0700
+
+    Fix broken completion when no taskfile is found
+
+[33mcommit b65935d6cf9791557adc8b1363ebde88d1d399b8[m
+Merge: f2abc13 2155fdd
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Apr 1 08:44:06 2022 -0300
+
+    Merge pull request #695 from joshuatz/typo-fixes
+    
+    Docs: typo fixes
+
+[33mcommit 2155fdd756564ed4170b0ab0b7457a0ca8d809a6[m
+Author: Joshua Tzucker <joshua.tz@gmail.com>
+Date:   Thu Mar 31 22:14:38 2022 -0700
+
+    Docs: typo fixes
+
+[33mcommit f2abc13ce2e26017b69ea7de1327aa8be7892da5[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Mar 31 21:44:59 2022 -0300
+
+    v3.12.0
+
+[33mcommit 0f4621fb02ad8c6fdc6ed12e5dc04ee38b63bfac[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Mar 31 21:37:06 2022 -0300
+
+    CHANGELOG: Add entry for #691
+
+[33mcommit c6ff641f6d6ab3399a89ee992d1e92c3cf4b5d18[m
+Merge: 350f74a 9897f4b
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Mar 31 21:31:56 2022 -0300
+
+    Merge branch 'list-task-names' of https://github.com/ardnew/task into ardnew-list-task-names
+
+[33mcommit 350f74a53dff256eb73afda6f5fdaacf375e532d[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Mar 31 21:19:16 2022 -0300
+
+    CHANGELOG: Add entry for #656
+
+[33mcommit 41cd7acc87a112a30a20c7c5e849167c93e1330b[m
+Merge: c6eea26 fc95061
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Mar 31 21:12:15 2022 -0300
+
+    Merge pull request #656 from tylermmorton/master
+    
+    Add support for multi-level includes
+
+[33mcommit c6eea26660e391fee33c1abdffa9659f5cb4ca9c[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Mar 21 15:26:41 2022 -0300
+
+    go mod tidy
+
+[33mcommit 61c57186637a707b0c19048f4d668562c164f99a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Mar 21 15:23:06 2022 -0300
+
+    Upgrade to Go 1.18 is out. Set 1.17 as the minimal version
+
+[33mcommit 9897f4b52774ad935198241d8fb853e383e65501[m
+Author: ardnew <andrew@ardnew.com>
+Date:   Mon Mar 21 12:59:25 2022 -0500
+
+    refactor with support for --list and --list-all
+
+[33mcommit 978a6e5ecb1ab7a8a224d1c97424066faf533568[m
+Author: ardnew <andrew@ardnew.com>
+Date:   Thu Jul 1 16:05:46 2021 -0500
+
+    quickly print task names only with flags --silent and --list
+
+[33mcommit a018997ddc8ce5a21b9a5c21b073e31b7bdbf86e[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Mar 21 10:31:48 2022 -0300
+
+    CHANGELOG: Fix typo
+
+[33mcommit de098434673a34f18085987cb4765e7472620ab9[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 19 18:41:03 2022 -0300
+
+    Improvements + CHANGELOG for #677
+
+[33mcommit 78a57fdb4b4821267bb866000e053c4ae7e03db9[m
+Merge: 0bc2fd7 60fa6e6
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 19 17:31:11 2022 -0300
+
+    Merge branch 'dballweg/vars_in_includedtaskfile' of https://github.com/dballweg/task into dballweg-dballweg/vars_in_includedtaskfile
+
+[33mcommit 0bc2fd72f0bb5af60d9335459964ff7f4f8c3a26[m
+Merge: 3df2396 dda5164
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 19 11:01:09 2022 -0300
+
+    Merge pull request #689 from go-task/dependabot/go_modules/github.com/stretchr/testify-1.7.1
+    
+    Bump github.com/stretchr/testify from 1.7.0 to 1.7.1
+
+[33mcommit dda5164efd19c767857cecf4767d173247f1f564[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Mar 19 11:07:08 2022 +0000
+
+    Bump github.com/stretchr/testify from 1.7.0 to 1.7.1
+    
+    Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.7.0 to 1.7.1.
+    - [Release notes](https://github.com/stretchr/testify/releases)
+    - [Commits](https://github.com/stretchr/testify/compare/v1.7.0...v1.7.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: github.com/stretchr/testify
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 3df2396b635eec6eac7745cbc287f6da7b954589[m
+Merge: c9aa018 d3da84e
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Mar 18 20:46:50 2022 -0300
+
+    Merge pull request #688 from vicmattos/vicmattosissue-683-docs-install-choco
+    
+    Add chocolatey in installation documentation
+
+[33mcommit d3da84e724e139db2de3c3c1b26c00a025d54a78[m
+Author: Victor Mattos <5757883+vicmattos@users.noreply.github.com>
+Date:   Fri Mar 18 17:41:34 2022 -0300
+
+    docs: add ownership of choco installation method
+
+[33mcommit eb610154773b29bdb063e08607f143491654584d[m
+Author: Victor Mattos <5757883+vicmattos@users.noreply.github.com>
+Date:   Fri Mar 18 17:38:29 2022 -0300
+
+    fix: reference chocolatey link anchor
+    
+    Co-authored-by: Andrey Nering <andrey@nering.com.br>
+
+[33mcommit 40c644f0065c96b243f3a742351f41be3c2451d9[m
+Author: Victor Mattos <5757883+vicmattos@users.noreply.github.com>
+Date:   Wed Mar 9 15:39:54 2022 -0300
+
+    docs: add chocolatey installation method
+    
+    Resolves #683
+
+[33mcommit c9aa0180a87b7c9579cd5f3ee7ebc4ec3fe5d60a[m
+Merge: d8555e5 a06e468
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Feb 27 16:01:11 2022 -0300
+
+    Merge pull request #679 from philpennock/zsh-completion
+    
+    completion: zsh: overhaul and sync to current flags
+
+[33mcommit a06e46885dc1d60c5ed4aa3cef88007559315a06[m
+Author: Phil Pennock <phil+git@pennock-tech.com>
+Date:   Fri Feb 25 00:58:22 2022 -0500
+
+    completion: zsh: overhaul and sync to current flags
+    
+    * List all current option flags
+    * Provide descriptions for every flag
+    * Pass the `task -l` descriptions as descriptions for the task completions
+      + The prior logic had 4 invocations of sed and 1 of awk, and only kept the
+        task name
+      + Do all filtering in zsh without forking (except for `task` itself)
+    * When `--taskfile` is used, complete tasks from _that_ file
+      + And otherwise, enable completions if only the `.dist` variant files are
+        present
+    * Ensure mutually exclusive options preclude each other
+      + the `+ '(groupname)'` clause defines this
+    * Fix `--dir` to take directories, not files
+
+[33mcommit 60fa6e6c0a5992b12c6425b0d797745e337dc36d[m
+Author: Dan Ballweg <dballweg@zendesk.com>
+Date:   Thu Feb 24 13:18:35 2022 -0600
+
+    update
+
+[33mcommit 2f18f7927d5ada0d408de38f7dbc6ed8db4213e7[m
+Author: Dan Ballweg <dballweg@zendesk.com>
+Date:   Thu Feb 24 13:17:20 2022 -0600
+
+    test include variables
+
+[33mcommit 292cf7583659d0eaf978d590b95974bbdcc689f6[m
+Author: Dan Ballweg <dballweg@zendesk.com>
+Date:   Wed Feb 23 16:53:46 2022 -0600
+
+    add vars to included taskfiles
+
+[33mcommit fc95061f4c181a0ab492a074c86e249cdba03604[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Mon Feb 21 15:33:54 2022 -0500
+
+    Add missing newlines
+
+[33mcommit 1f1275255c70571bbdc47b0852dcb4e4bb12fc87[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Mon Feb 21 15:31:55 2022 -0500
+
+    Fix bug in includes where default taskfiles were not being checked.
+
+[33mcommit d8555e5a5ded8230b203a995d9b0bd7e62316cfd[m[33m ([m[1;33mtag: v3.11.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Feb 19 19:40:29 2022 -0300
+
+    v3.11.0
+
+[33mcommit b323531dd5f7d0043033124278a19aab4d044995[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Feb 19 19:31:27 2022 -0300
+
+    Improvements and CHANGELOG for #651
+
+[33mcommit cfb665310e360bc3702b463fdb77fb07cbc2f977[m
+Merge: 51c6ebc 74f5cf8
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Feb 19 18:42:34 2022 -0300
+
+    Merge branch 'group-begin-message' of https://github.com/janslow/task into janslow-group-begin-message
+
+[33mcommit 51c6ebcd4d4f374a5458b7ad9686ade4dcce2054[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Feb 19 18:24:43 2022 -0300
+
+    Add tests, documentation and changelog for #666
+
+[33mcommit e94d1b6b9fff80691319703aa5e911f03503a1b6[m
+Merge: ca7b321 248952b
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Feb 19 18:01:00 2022 -0300
+
+    Merge branch 'task-498-taskfile-dist' of https://github.com/tylermmorton/task into tylermmorton-task-498-taskfile-dist
+
+[33mcommit ca7b32105d39412b9203e0f46f084fed9b5a52dc[m
+Merge: 5f2c9a6 264db27
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Feb 19 17:55:30 2022 -0300
+
+    Merge pull request #674 from go-task/dependabot/go_modules/mvdan.cc/sh/v3-3.4.3
+    
+    Bump mvdan.cc/sh/v3 from 3.4.2 to 3.4.3
+
+[33mcommit 264db2737b8aa61a277d93be197e27d59c16cc49[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Feb 19 20:51:22 2022 +0000
+
+    Bump mvdan.cc/sh/v3 from 3.4.2 to 3.4.3
+    
+    Bumps [mvdan.cc/sh/v3](https://github.com/mvdan/sh) from 3.4.2 to 3.4.3.
+    - [Release notes](https://github.com/mvdan/sh/releases)
+    - [Changelog](https://github.com/mvdan/sh/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mvdan/sh/compare/v3.4.2...v3.4.3)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: mvdan.cc/sh/v3
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 5f2c9a6e45d26aa1f55ab772393ef849a81d945c[m
+Merge: 2373743 19be1f1
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Feb 13 19:51:40 2022 -0300
+
+    Merge pull request #671 from JessThrysoee/bashcompletion
+    
+    bash-completion refactoring
+
+[33mcommit 19be1f1bf0605dc45a97e68e281be1dd712b6643[m
+Author: Jess Thrysoee <jess@thrysoee.dk>
+Date:   Sun Feb 13 20:20:01 2022 +0100
+
+    bash-completion refactoring
+    
+    1. 'compgen -c' lists _all_ command names on the system, which is not
+       appropriate for this script, furthermore echo does not read from stdin
+       so the output is lost.
+    
+    2. use _get_comp_words_by_ref and __ltrim_colon_completions to handle task
+       names with colons.
+    
+       "...modifying COMP_WORDBREAKS in your completion script is not safe
+       (as it is a global variable and it has the side effect of affecting
+       the behavior of other completion scripts"
+       Ref.: https://stackoverflow.com/a/12495727/7044304
+    
+    3. Add options completion
+    
+    4. Use task --list-all
+
+[33mcommit 7cdf0000d91c55f8256ebd6dfe546a4b9c095b6b[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Thu Feb 3 22:23:01 2022 -0500
+
+    Fix error message assertion in task_test
+
+[33mcommit 13606e5e0019e6b3305a990a65f6064b1bab10da[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Thu Feb 3 22:20:49 2022 -0500
+
+    Remove note about multi level includes from usage documentation
+
+[33mcommit 35af240faaabed8f95c8b6f88cc4880caf869141[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Thu Feb 3 22:19:07 2022 -0500
+
+    Add newlines to multi-level test Taskfiles
+
+[33mcommit 0ac56f89736fcbea3220e3211aedd8f111756d7d[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Thu Feb 3 22:13:43 2022 -0500
+
+    Add newlines to test Taskfiles
+
+[33mcommit 6e5f8b1fb00338669353acfb80deb6fff92ccd40[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Thu Feb 3 22:12:58 2022 -0500
+
+    Append task prefix to log messages
+
+[33mcommit 15e831c0b00a93cce700815f789c000c6c7e4575[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Thu Feb 3 22:09:57 2022 -0500
+
+    Revert "Update docs to account for new feature"
+    
+    This reverts commit 66748ab5e51fb9c04d7964392b51b2da3b1ebe21.
+
+[33mcommit 248952bc8fdd59f631bf1e9390d7fa5bb2f20e4c[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Sat Jan 29 11:53:36 2022 -0500
+
+    Add dist fallbacks to defaultTaskfiles
+
+[33mcommit 2373743eacee1d6d38f8f97047d241204bbb5061[m
+Merge: f119596 7ed3cea
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jan 17 10:18:22 2022 -0300
+
+    Merge pull request #652 from jcwillox/master
+    
+    Add completions to nfpms packages
+
+[33mcommit f119596be6bb20d615f16edbc1ecf91a19d4cd82[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jan 17 09:38:32 2022 -0300
+
+    Docs: Small change to title
+
+[33mcommit b7cb41b388770d432ef36167048b9529e95c430b[m
+Merge: 086d13c a65ee26
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Jan 17 09:37:06 2022 -0300
+
+    Merge pull request #657 from lechuckroh/intellij-plugin
+    
+    Update 'community.md' to add IntelliJ plugin link
+
+[33mcommit a65ee2644637b026da916624c0fd46ee4d1f75cb[m
+Author: Lechuck Roh <lechuckroh@gmail.com>
+Date:   Sun Jan 16 22:23:24 2022 +0900
+
+    Update 'community.md' to add IntelliJ plugin link
+
+[33mcommit d3e2fbf1e26c3d44a229ce497e0f4a0dae04ecf3[m
+Merge: 66748ab 4bbcd99
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Sat Jan 15 23:37:40 2022 -0500
+
+    Merge branch 'master' of https://github.com/tylermmorton/task
+
+[33mcommit 66748ab5e51fb9c04d7964392b51b2da3b1ebe21[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Sat Jan 15 23:37:39 2022 -0500
+
+    Update docs to account for new feature
+
+[33mcommit c73a2c8f840bf966a13230497b75bfcb0b22aa49[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Sat Jan 15 23:34:59 2022 -0500
+
+    Move circular include logic to a separate function
+
+[33mcommit 4bbcd99b8b85c098da887865fef68167748d91aa[m
+Merge: 02e7ff2 086d13c
+Author: Tyler Morton <4533910+tylermmorton@users.noreply.github.com>
+Date:   Fri Jan 14 22:39:27 2022 -0500
+
+    Merge branch 'go-task:master' into master
+
+[33mcommit 02e7ff27c79d8ab9c98c6892432e5ecf6dc03bcb[m
+Author: tylermmorton <tylermmorton@gmail.com>
+Date:   Fri Jan 14 22:38:37 2022 -0500
+
+    Add support for multi-level includes and cyclic include detection
+
+[33mcommit 7ed3cea40ba001065622721d4c32ecd7a56b5fdd[m
+Author: Josh Willox <joshwillox@gmail.com>
+Date:   Fri Jan 14 20:48:28 2022 +1100
+
+    Add completions to nfpms packages
+
+[33mcommit 74f5cf8f2947c4cd5b5efa40fad81b6adecd9f58[m
+Author: Jay Anslow <jay.anslow@babylonhealth.com>
+Date:   Fri Jan 14 00:11:47 2022 +0000
+
+    Add support for begin/end messages with grouped output
+    
+    Fixes #647
+    
+    This allows CI systems that support grouping (such as with [GitHub Actions's `::group::` command](https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#grouping-log-lines) and [Azure Devops](https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/logging-commands?view=azure-devops&tabs=bash#formatting-commands)) to collapse all of the logs for a single task, to improve readability of logs
+    
+    ## Example
+    
+    The following Taskfile
+    
+    ```
+    # Taskfile.yml
+    version: 3
+    output:
+      group:
+        begin: "::group::{{ .TASK }}"
+        end: "::endgroup::"
+    tasks:
+      default:
+        cmds:
+          - "echo 'Hello, World!'"
+    ```
+    
+    Results in the following output
+    ```bash
+    $ task
+    task: [default] echo 'Hello, World!'
+    ::group::default
+    Hello, World!
+    ::endgroup::
+    ```
+    
+    See [this GitHub Actions job](https://github.com/janslow/task/runs/4811059609?check_suite_focus=true) for a full example
+    
+    <img width="771" alt="image" src="https://user-images.githubusercontent.com/1253367/149429832-6cb0c1b5-0758-442e-9375-c4daa65771bc.png">
+    <img width="394" alt="image" src="https://user-images.githubusercontent.com/1253367/149429851-1d5d2ab5-9095-4795-9b57-f91750720d40.png">
+
+[33mcommit 086d13ca2ffafdfd56491bfd60885c3fdf98de9b[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Jan 13 10:39:38 2022 -0300
+
+    Docs: Remove line reference from file link
+
+[33mcommit 2780e9617979f488b0c1aa58dd1a688569038104[m
+Merge: 79f595d 191678f
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Jan 13 10:38:49 2022 -0300
+
+    Merge pull request #648 from sagikazarmark/docs-nix-install
+    
+    docs: add nix as an installation method
+
+[33mcommit 191678f9d6ec6c0142b75a020880fbe34410b90e[m
+Author: Mark Sagi-Kazar <mark.sagikazar@gmail.com>
+Date:   Thu Jan 13 00:15:04 2022 +0100
+
+    docs: add nix as an installation method
+
+[33mcommit 79f595d8d194d82e278360d40537c87ea209e889[m[33m ([m[1;33mtag: v3.10.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 18:19:48 2022 -0300
+
+    v3.10.0
+
+[33mcommit db2865fb1783d623db7c76c973d85e301aebc9a2[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 18:10:24 2022 -0300
+
+    Add CHANGELOG entry for #579
+
+[33mcommit f945fa60d9c407ebd931492812113ea385a5045b[m
+Merge: 454988f 93dcb20
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 17:39:14 2022 -0300
+
+    Merge branch 'bugfix/issue-481-dynamic-vars-broken' of https://github.com/masaushi/task into masaushi-bugfix/issue-481-dynamic-vars-broken
+
+[33mcommit 454988f657ae3a8c8b50d9f2815976a03e764a8d[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 17:19:38 2022 -0300
+
+    Fix typo :facepalm:
+
+[33mcommit 7e0346d6eb04a54e19106611851e4533fe23815c[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 17:16:21 2022 -0300
+
+    Add CHANGELOG, documentation and small improvements to #401
+
+[33mcommit 00a90d1fe6015560e66141e486e334b9e962fbc8[m
+Merge: d6c1855 42702e8
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 17:03:12 2022 -0300
+
+    Merge branch 'f/list-all' of https://github.com/therealkevinard/task into therealkevinard-f/list-all
+
+[33mcommit d6c185580a758cf09c301f76e4589185861f5450[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Jan 4 16:56:13 2022 -0300
+
+    Add CHANGELOG, documentation and small improvements to #626
+
+[33mcommit fd9132c15d3d4f511a412b8979c23b80bb2b68f0[m
+Author: Jacob McCollum <jacob.r.mccollum@gmail.com>
+Date:   Mon Jan 3 13:22:06 2022 -0500
+
+    remove extra file
+
+[33mcommit 42702e81b35c5b4960c94ff65577f6c4314b0ccd[m
+Author: Kevin Ard <kard@quantummetric.com>
+Date:   Mon Jan 3 12:12:18 2022 -0500
+
+    refactor: wrap PrintTasksHelp with arg-less signatures
+    
+    provide exported methods for accessing PrintTasksHelp variants.
+
+[33mcommit 09c9d55695c1510cb444c6036d4adaa518674675[m
+Author: Jacob McCollum <jacob.r.mccollum@gmail.com>
+Date:   Sun Jan 2 16:38:06 2022 -0500
+
+    Changes from PR Review:
+    
+    - Remove ^task syntax from `defer`
+    - Support task call syntax in defer
+
+[33mcommit 69e9effc8849b8a7cf4a300e5f46ca2bf7a93a0b[m
+Author: Jacob McCollum <jacob.r.mccollum@gmail.com>
+Date:   Wed Dec 15 00:03:37 2021 -0500
+
+    initial pass at deferred commands
+
+[33mcommit 1c782c599f76ff968dba8c5bcd2eb7ace0d8a649[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Jan 2 15:15:54 2022 -0300
+
+    Remove deprecated "$" and "^" prefixes
+    
+    `$` was a variable prefix that make it being evaluated as shell. It was
+    replaced with `sh:`.
+    
+    `^` is a command prefix that make it run another task. It was replaced
+    with `task:`.
+    
+    These were added long ago when we were experimenting with stuff and kept for
+    some time for backward compatibility reasons, but sometimes causes confusion
+    and I think the time to remove the code came.
+    
+    Closes #644
+    Closes #645
+    Ref #642
+    
+    Co-authored-by: Trite <60318513+Trite8Q1@users.noreply.github.com>
+
+[33mcommit ed37071fd67a06c333938d8f6c779690930b6799[m
+Merge: d5d1984 d73cf10
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Jan 2 15:08:50 2022 -0300
+
+    Merge pull request #621 from kerma/feat/support-yaml
+    
+    Add support for yaml extension
+
+[33mcommit d73cf106b1620017ea9e6ceb729d5ec73b9a0f17[m
+Merge: 1d7982e d5d1984
+Author: Margus Kerma <margus@amrek.net>
+Date:   Sun Jan 2 15:30:23 2022 +0200
+
+    Merge branch 'master' into feat/support-yaml
+
+[33mcommit 1d7982e80a939baf7c43e7795bcd9a2afa728f6c[m
+Author: Margus Kerma <margus@amrek.net>
+Date:   Sat Dec 4 17:37:52 2021 +0200
+
+    fix(#584): Add support to yaml extension
+    
+    - init creates Taskfile.yaml
+    - add changelog entry
+    - add zsh completion support for Taskfile.yaml
+
+[33mcommit d5d198411625c638084326dd3a4d21504e9e44fb[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Dec 30 16:45:08 2021 -0300
+
+    Pin released vetsion of mvdan/sh v3.4.2
+
+[33mcommit 9eda1629bb72459580a156d52fa5f3dd15d93b7b[m
+Merge: b2efebc 9a5d497
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Dec 20 23:58:23 2021 -0300
+
+    Merge pull request #636 from nichady/replace-ioutil
+    
+    replace usages of ioutil with io and os
+
+[33mcommit 9a5d49774ec97a5e57e860d4f519aac79aaab18d[m
+Author: nichady <57887348+nichady@users.noreply.github.com>
+Date:   Mon Dec 20 20:00:34 2021 -0600
+
+    replace usages of ioutil with io and os
+
+[33mcommit b2efebce96f5ba42b4e1b30b2f517f6d5a827c2b[m
+Merge: df4e3ae 85232bd
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Dec 19 22:14:23 2021 -0300
+
+    Merge pull request #634 from go-task/upgrade-github-actions
+    
+    Upgrade GitHub actions
+
+[33mcommit 85232bd70488635dcea288837225e6f392000c1e[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Dec 19 22:06:51 2021 -0300
+
+    Upgrade GitHub actions
+    
+    Closes #633
+
+[33mcommit df4e3aea79da52f8dda6ab8bcca04dc28e094472[m[33m ([m[1;33mtag: v3.9.2[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Dec 2 09:48:30 2021 -0300
+
+    v3.9.2
+
+[33mcommit 290d45fd0566a39bdd69f27eeefa1dc61ac37d21[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu Dec 2 09:42:39 2021 -0300
+
+    Upgrade mvdan.cc/sh
+
+[33mcommit 168e8c925c152b619c3344b57e5a79b96ad4ff08[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Nov 29 12:55:43 2021 -0300
+
+    CHANGELOG: Fix typo
+
+[33mcommit d9859b18fedb9df13df0b4cedeb4d35676724f8e[m[33m ([m[1;33mtag: v3.9.1[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 16:19:30 2021 -0300
+
+    v3.9.1
+
+[33mcommit 784847f35bb1e4791785a39d6fd2c2b413ca9d3c[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 16:15:54 2021 -0300
+
+    CHANGELOG: Add entry for #533 and #588
+
+[33mcommit 97287377d1ecec943cbf0698dc30b463d78df07a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 16:12:33 2021 -0300
+
+    CHANGELOG: Add entries for #597 and #598
+
+[33mcommit a15b66e0030a704633dc29a514b5d0dd5a3d5a1e[m
+Merge: a441b4b 6900002
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 16:14:56 2021 -0300
+
+    Merge pull request #588 from jespino/issue-533
+    
+    Adding task started and task finished in the verbose otput
+
+[33mcommit a441b4b90dc72fe8576e43c2268b20a3c7016929[m
+Merge: 0dcc139 bdb97ea
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 16:10:32 2021 -0300
+
+    Merge pull request #598 from sylv-io/fix/false_fail
+    
+    task: Check context error
+
+[33mcommit 0dcc1390a608098fb2444d9cb9ddef138a8179fd[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 15:58:41 2021 -0300
+
+    GitHub: Remove automatic "bug" or "feature" lables in issues
+
+[33mcommit 01c86636e951217c7c67236a2309c0ac1f1a2f1b[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 15:54:49 2021 -0300
+
+    Add CHANGELOG and minor changes to #613
+
+[33mcommit 846c27d579721e7a50745452e9df9f969a50e92d[m
+Merge: db05059 e339a64
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 15:51:03 2021 -0300
+
+    Merge pull request #613 from Peter554/fix-quoting-cli-args
+    
+    Fix quoting of CLI_ARGS
+
+[33mcommit db05059b42b80dc4b4cdd7eceb543432e951e15a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 15:43:38 2021 -0300
+
+    CHANGELOG: Add entry for #614 and #612
+
+[33mcommit b824328850e358061d664da5c92d08abfc3325d1[m
+Merge: a8767a2 b6016b2
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 15:41:38 2021 -0300
+
+    Merge pull request #614 from kerma/fix/panic-on-empty-included-cmd
+    
+    Add nil check for included cmd
+
+[33mcommit a8767a2b1aebc24122b668985b27e10f620394ec[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Nov 28 15:38:47 2021 -0300
+
+    CHANGELOG: Mention mvdan/sh upgrade
+
+[33mcommit 5e14e7fb705fc6d8254be7b94d152a974dd40bc1[m
+Merge: 17e1844 fbaa7be
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Nov 27 17:32:22 2021 -0300
+
+    Merge pull request #615 from go-task/dependabot/go_modules/mvdan.cc/sh/v3-3.4.1
+    
+    Bump mvdan.cc/sh/v3 from 3.4.0 to 3.4.1
+
+[33mcommit fbaa7be52edc5807a33b48da5eb161f497563d3d[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Nov 27 11:03:48 2021 +0000
+
+    Bump mvdan.cc/sh/v3 from 3.4.0 to 3.4.1
+    
+    Bumps [mvdan.cc/sh/v3](https://github.com/mvdan/sh) from 3.4.0 to 3.4.1.
+    - [Release notes](https://github.com/mvdan/sh/releases)
+    - [Changelog](https://github.com/mvdan/sh/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mvdan/sh/compare/v3.4.0...v3.4.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: mvdan.cc/sh/v3
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit b6016b244e76e2e0b0040fb8ddfa36f0dc6e152f[m
+Author: Margus Kerma <margus@amrek.net>
+Date:   Fri Nov 26 11:20:05 2021 +0200
+
+    fix(#612): Add nil check for included cmd
+
+[33mcommit e339a64261426a74bef8c619d3185f84ca816f01[m
+Author: Peter Byfield <byfield554@gmail.com>
+Date:   Thu Nov 25 14:03:31 2021 +0100
+
+    Fix quoting of CLI_ARGS
+    
+    Consider a task:
+    
+    test:
+      cmds:
+        - pytest {{.CLI_ARGS}}
+    
+    Running `task test -- -m "not foo"` should be equivalent
+    to running `pytest -m "not foo"`. However, with the current
+    implementation the quoting of CLI_ARGS is lost and the task
+    executes `python -m not foo`, which results in an error.
+
+[33mcommit 17e18442abf47ad9bc11a873d82a46d39269b5d1[m
+Merge: 6a0b778 e8aa3a1
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Nov 9 12:15:26 2021 -0300
+
+    Merge pull request #600 from OmriSteiner/typofix
+    
+    Fix typo in usage.md
+
+[33mcommit e8aa3a17a6387f2432c477478671abdcd2fab307[m
+Author: Omri Steiner <omri@insoundz.com>
+Date:   Tue Nov 9 16:18:42 2021 +0200
+
+    Fix typo in usage.md
+
+[33mcommit bdb97eab86af7ff81cfb978db130035c03a3697c[m
+Author: Marcello Sylvester Bauer <sylv@sylv.io>
+Date:   Wed Nov 3 12:26:21 2021 +0100
+
+    task: Check context error
+    
+    Check context error after running dependencies, to prevent false
+    negative precondition errors due to "context canceled".
+    
+    Signed-off-by: Marcello Sylvester Bauer <sylv@sylv.io>
+
+[33mcommit 690000254c94795a1235140d5900d41f625cb11d[m
+Author: Jesús Espino <jespinog@gmail.com>
+Date:   Sun Oct 31 09:37:23 2021 +0100
+
+    Apply suggestions from code review
+    
+    Co-authored-by: Andrey Nering <andrey@nering.com.br>
+
+[33mcommit 6a0b7789788eef8563909762f48955e129ffab84[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 30 11:15:56 2021 -0300
+
+    Add CHANGELOG for #592
+
+[33mcommit 549d1410537e39a2ab4206a4ea2f183b37925a41[m
+Merge: a3b5b89 c31ecdb
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 30 11:07:13 2021 -0300
+
+    Merge pull request #592 from caarlos0/brew
+    
+    fix: goreleaser brew completions
+
+[33mcommit c31ecdb8de1c2d7b5641a7f90682a657169eb0aa[m
+Author: Carlos A Becker <caarlos0@gmail.com>
+Date:   Wed Oct 27 14:44:10 2021 -0300
+
+    fix: goreleaser brew completions
+
+[33mcommit 8a09d044c7466efae6a84f4c30577e963b3d81d1[m
+Author: Jesús Espino <jespinog@gmail.com>
+Date:   Sat Oct 16 21:12:26 2021 +0200
+
+    Adding task started and task finished in the verbose otput
+
+[33mcommit a3b5b89930f9e03ccdebd26213f53b6d092da75c[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 2 18:51:52 2021 -0300
+
+    Fix typo in CHANGELOG
+
+[33mcommit ad6f100f6a4a7f80dddfa83846b8540d230838f7[m[33m ([m[1;33mtag: v3.9.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 2 18:47:30 2021 -0300
+
+    v3.9.0
+
+[33mcommit 3cfe21af58990e0f0cc4b8bb03e9043f09f8771a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 2 18:29:07 2021 -0300
+
+    Add `shellQuote` template function
+
+[33mcommit b70a6609758e31401a55873367b2e2f991770731[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 2 18:07:54 2021 -0300
+
+    Add CHANGELOG for #580
+
+[33mcommit 04c1d1389fc1b510ebc67c1f244bb3ac2a376b62[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 2 17:52:02 2021 -0300
+
+    go mod tidy
+
+[33mcommit f12156bf818ec94a44b702e92a546d34d9cb8620[m
+Merge: 361b9b4 0177ac6
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Oct 2 17:50:37 2021 -0300
+
+    Merge pull request #580 from system-transparency/update/sh
+    
+    upgrade mvdan.cc/sh/v3 v3.3.1 => v3.4.0
+
+[33mcommit 0177ac660b9461955d546a72d74de227a49c6b0e[m
+Author: Marcello Sylvester Bauer <sylv@sylv.io>
+Date:   Sat Oct 2 12:32:20 2021 +0200
+
+    upgrade mvdan.cc/sh/v3 v3.3.1 => v3.4.0
+    
+    Signed-off-by: Marcello Sylvester Bauer <sylv@sylv.io>
+
+[33mcommit 361b9b4ce4811d51b7b4f9d6b3717d4fac9adf1b[m[33m ([m[1;33mtag: v3.8.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Sep 26 22:29:57 2021 -0300
+
+    v3.8.0
+
+[33mcommit 78792bd11c0a403da74d0fa1d711dafbdcd6df2a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Sep 26 21:55:31 2021 -0300
+
+    Add CHANGELOG + Small improvement for #563
+
+[33mcommit 8b38ddfcd9776b55821cefd107f7bf0fd3a7960a[m
+Merge: 78ddf50 2dc181c
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Sep 26 21:40:50 2021 -0300
+
+    Merge pull request #563 from system-transparency/feature/interactive
+    
+    Task: Add interactive parameter
+
+[33mcommit 78ddf50d2d2b39002815399a6f57c7e9c5d69a17[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Sep 26 21:28:40 2021 -0300
+
+    Documentation: Remove reference to deprecated "expansions" keyword
+    
+    Closes #575
+
+[33mcommit 93dcb20e1290573bf2751add8d1963a7b878b83b[m
+Author: masaushi <masato.deushi@gmail.com>
+Date:   Sun Sep 26 22:30:32 2021 +0900
+
+    fix error in evaluating dynamic variables with newly created directory
+
+[33mcommit 41a71e1dee8cebbe51408758bc89bfefb0724c54[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 25 09:48:49 2021 -0300
+
+    Add CHANGELOG for #573
+
+[33mcommit a5ed8ad58c96d91acdec3465d5d4f3f0059aafc0[m
+Merge: e45ed85 1de4b38
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 25 09:46:47 2021 -0300
+
+    Merge pull request #573 from masaushi/bugfix/issue-534-seg-fault-on-empty-command
+    
+    Fix segmentation fault on nil slice element for issue #534
+
+[33mcommit e45ed85b55e08ff557effa8f84f34fca677e6e82[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 25 09:40:03 2021 -0300
+
+    Add CHANGELOG + Small nits for #552
+
+[33mcommit 52474f910356cb2a02e317a353d753eba5c5324e[m
+Merge: c2587da 8f80fc4
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 25 09:36:44 2021 -0300
+
+    Merge pull request #552 from justafish/justafish/519/optional-includes
+    
+    Allow includes to be optional
+
+[33mcommit c2587da27d1238f0f2f5d105305bb93ecf43ab90[m
+Merge: 2603687 906cdd9
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 25 09:32:28 2021 -0300
+
+    Merge pull request #577 from go-task/dependabot/go_modules/github.com/fatih/color-1.13.0
+    
+    Bump github.com/fatih/color from 1.12.0 to 1.13.0
+
+[33mcommit 26036877b24c4f103c18e8051db7022992c56266[m
+Merge: 6c73ab8 762662d
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 25 09:31:54 2021 -0300
+
+    Merge pull request #576 from go-task/dependabot/go_modules/github.com/joho/godotenv-1.4.0
+    
+    Bump github.com/joho/godotenv from 1.3.0 to 1.4.0
+
+[33mcommit 906cdd90502820fdeae5f0bbbff9b19b07c8e6f2[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Sep 25 11:04:26 2021 +0000
+
+    Bump github.com/fatih/color from 1.12.0 to 1.13.0
+    
+    Bumps [github.com/fatih/color](https://github.com/fatih/color) from 1.12.0 to 1.13.0.
+    - [Release notes](https://github.com/fatih/color/releases)
+    - [Commits](https://github.com/fatih/color/compare/v1.12.0...v1.13.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: github.com/fatih/color
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 762662d05696de0d04f4142f553e2a552dfb061e[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Sep 25 11:04:15 2021 +0000
+
+    Bump github.com/joho/godotenv from 1.3.0 to 1.4.0
+    
+    Bumps [github.com/joho/godotenv](https://github.com/joho/godotenv) from 1.3.0 to 1.4.0.
+    - [Release notes](https://github.com/joho/godotenv/releases)
+    - [Commits](https://github.com/joho/godotenv/compare/v1.3.0...v1.4.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: github.com/joho/godotenv
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 1de4b38766f8bff124180f4dbcc66d6d9568d0c6[m
+Author: masaushi <masato.deushi@gmail.com>
+Date:   Wed Sep 15 00:01:33 2021 +0900
+
+    fix segmentation fault on nil slice element
+
+[33mcommit 6c73ab823b5e34430eacbb7b2ec14bd80995a58b[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Sep 6 10:30:45 2021 -0300
+
+    Add CHANGELOG + gofmt for #557
+
+[33mcommit 5ef1651151407172bbc10486f5a7cd8b4a3eb7c3[m
+Merge: b327e54 8d695bc
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon Sep 6 10:24:23 2021 -0300
+
+    Merge branch 'include-homedir' of https://github.com/amancevice/task into amancevice-include-homedir
+
+[33mcommit 8d695bc8d79200289dc5530bf117e29bbbfc83b3[m
+Author: Alexander Mancevice <alexander.mancevice@hey.com>
+Date:   Sun Sep 5 10:57:49 2021 -0400
+
+    simplify logic to expand included paths
+
+[33mcommit c892d055ed01bae034c0f5a037b96b4db4111047[m
+Author: Alexander Mancevice <alexander.mancevice@hey.com>
+Date:   Sun Sep 5 08:18:47 2021 -0400
+
+    Use internal execext.Expand to expand ~ in includes
+
+[33mcommit b327e54be11453a756cb160ac5eb20d60c99d2f0[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 22:17:41 2021 -0300
+
+    Give up on trying to make Gorelease release Homebrew automatically
+    
+    It refuses to do it and I don't know why. Gonna publish the manifest manually as before
+
+[33mcommit 989045489c1bf4443dfd11b60520e82120702661[m[33m ([m[1;33mtag: v3.7.3[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 22:05:50 2021 -0300
+
+    v3.7.3
+    
+    :roll_eyes:
+
+[33mcommit 888338c60ee1783e7ca7b8436d15c2a73624b536[m[33m ([m[1;33mtag: v3.7.2[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 22:02:53 2021 -0300
+
+    v3.7.2
+    
+    Attempt to fix Homebrew releasing by Goreleaser
+
+[33mcommit e6c6cc781189ff587bdbb8454603459787d88f9b[m[33m ([m[1;33mtag: v3.7.1[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 21:52:46 2021 -0300
+
+    v3.7.1
+
+[33mcommit fa0e72bd6984b218f119cf206906356735133ef7[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 21:30:28 2021 -0300
+
+    Documentation typo
+    
+    Fixes #555
+
+[33mcommit 18decac44d3acc76f14d803f6365bac190e4ae19[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 21:26:17 2021 -0300
+
+    Homebrew: Automate with Goreleaser and start publishing M1 binaries
+
+[33mcommit 1012a0cf2b4a6e3fdc652452f70cb349ad62797f[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 21:04:40 2021 -0300
+
+    Upgrade to Go 1.17. Set 1.16 as the minimal version
+
+[33mcommit 7e4de945cf9b06c7dbd5fb4f914127cce4c603a3[m
+Merge: a468272 d35f960
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 20:56:16 2021 -0300
+
+    Merge pull request #564 from JulienBreux/feat/upgrade-goreleaser-action
+    
+    Upgrade Goreleaser action to v2 - To ensure mac/m1 mac/arm release
+
+[33mcommit a468272726975eb5fa23064eef4a2406526666dd[m
+Merge: 634f8ed 039d8f0
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Sep 4 20:52:24 2021 -0300
+
+    Merge pull request #567 from LukeCarrier/go-1.16
+    
+    Build with Go 1.16
+
+[33mcommit 039d8f000d9a1c2d218a665275ca775db13facbf[m
+Author: Luke Carrier <luke.carrier@babylonhealth.com>
+Date:   Sat Sep 4 22:56:39 2021 +0100
+
+    Build with Go 1.16
+    
+    This enables darwin-arm64 builds to support Apple Silicon-based Macs.
+
+[33mcommit 2dc181c75e004d3ce62603bf9126290cf7839af9[m
+Author: Marcello Sylvester Bauer <sylv@sylv.io>
+Date:   Wed Sep 1 18:28:38 2021 +0200
+
+    Task: Add interactive parameter
+    
+    Add the task parameter "interactive" to force interleaved output in order
+    to make interactive CLI apps work.
+    
+    Feature request in #217
+    
+    TODO:
+    * Update documentation
+    
+    Signed-off-by: Marcello Sylvester Bauer <sylv@sylv.io>
+
+[33mcommit d35f960a8a779560025fd03797b577f0ccdcfe61[m
+Author: Julien Breux <julien.breux@happn.fr>
+Date:   Thu Sep 2 17:45:01 2021 +0200
+
+    Upgrade Goreleaser action to v2
+
+[33mcommit 634f8ed574bce79ec9785e799555ef5358ce665f[m
+Merge: 50e5813 d369451
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Wed Sep 1 13:34:10 2021 -0300
+
+    Merge pull request #562 from notnmeyer/fix-fish-shell-completions
+    
+    Fix fish completions
+
+[33mcommit d3694513083147880a2d84d85cd1d2e793ca4d51[m
+Author: Nate Meyer <nmeyer@gmail.com>
+Date:   Wed Sep 1 08:54:48 2021 -0700
+
+    keep the sed, we do want to skip the first line
+
+[33mcommit 8f1202424d981547374e9f2eb88c10763f96197d[m
+Author: Nate Meyer <nmeyer@gmail.com>
+Date:   Wed Sep 1 08:33:08 2021 -0700
+
+    properly format each line
+
+[33mcommit 0a6833e9d80d02376d4020f002894277f6d681ef[m
+Author: Alexander Mancevice <alexander.mancevice@hey.com>
+Date:   Sat Aug 21 07:20:33 2021 -0400
+
+    Allow included Taskfiles to use ~/* paths
+
+[33mcommit 8f80fc4e2c283c41cb1525b88996bd07743cbf31[m
+Author: Sally Young <git@justa.fish>
+Date:   Wed Aug 11 17:28:44 2021 +0100
+
+    Issue #519: Allow includes to be optional
+
+[33mcommit 50e58132220fdbb3e012b53ecc74ffeeee45a396[m
+Merge: 7bc268a aae38f8
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Aug 7 13:54:39 2021 -0300
+
+    Merge pull request #544 from AlexanderBeyn/fix-bash-completion
+    
+    Fix bash completions when the current argument begins with a dash
+
+[33mcommit 7bc268aeaab7263c2a06edf5c1cbb0d313b6b913[m
+Merge: ad05432 537b5b1
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Aug 7 13:53:22 2021 -0300
+
+    Merge pull request #545 from go-task/dependabot/go_modules/mvdan.cc/sh/v3-3.3.1
+    
+    Bump mvdan.cc/sh/v3 from 3.3.0 to 3.3.1
+
+[33mcommit 537b5b1e258cde2669fa784b43a2ee9cabc12f05[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Aug 7 11:03:11 2021 +0000
+
+    Bump mvdan.cc/sh/v3 from 3.3.0 to 3.3.1
+    
+    Bumps [mvdan.cc/sh/v3](https://github.com/mvdan/sh) from 3.3.0 to 3.3.1.
+    - [Release notes](https://github.com/mvdan/sh/releases)
+    - [Changelog](https://github.com/mvdan/sh/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mvdan/sh/compare/v3.3.0...v3.3.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: mvdan.cc/sh/v3
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit aae38f8ce74b12d825473b2101142f11f40c770f[m
+Author: Alexander Beyn <malex@fatelectrons.org>
+Date:   Sat Aug 7 02:28:52 2021 -0700
+
+    Don't let grep treat the search pattern as an option
+
+[33mcommit ad05432bcf3d38f4a2fe55189a19c62fb295aed0[m[33m ([m[1;33mtag: v3.7.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 31 21:36:03 2021 -0300
+
+    v3.7.0
+
+[33mcommit 8aa983257da6da096a621200940df8f3d39be065[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 31 20:29:59 2021 -0300
+
+    Small adjustments and CHANGELOG for #359
+
+[33mcommit 046a97d1e530d3c77022d45b5d08a7aeff139072[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 31 20:29:19 2021 -0300
+
+    go.mod: Upgrade minimal Go version to v1.15
+
+[33mcommit d28649b13de95613fd053125d7172d9a99f74da5[m
+Author: Ross Hammermeister <glitch17@gmail.com>
+Date:   Wed Jul 28 14:39:00 2021 -0600
+
+    Refactoring startExecution
+
+[33mcommit 3e16ca37bc2059aa774b10d267eb782fe8d9b4bb[m
+Author: Ross Hammermeister <glitch17@gmail.com>
+Date:   Wed Jul 28 13:50:29 2021 -0600
+
+    Updating version checking
+
+[33mcommit 2da38a5bdc548d9eebde53f97acb2f2898c1819e[m
+Author: Ross Hammermeister <glitch17@gmail.com>
+Date:   Mon Jul 19 21:10:28 2021 -0600
+
+    Cleaning up the run code
+
+[33mcommit bbe1d8b52ec1f6ea6a2788387a37b9ace874d8c0[m
+Author: Ross Hammermeister <glitch17@gmail.com>
+Date:   Wed Aug 26 11:10:27 2020 -0600
+
+    Adding proper version checking for taskfile when using run
+
+[33mcommit 97c85e39c337d6fad9ead4300889d5dc50d09229[m
+Author: Ross Hammermeister <glitch17@gmail.com>
+Date:   Mon Aug 17 13:25:17 2020 -0600
+
+    Only run task once for #53
+
+[33mcommit a7b59e5b1205698bd5adc43ef2acf6b73f45a67a[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jul 23 18:32:13 2021 -0300
+
+    community.md: Update title level
+
+[33mcommit 9eb1252ce943012df5f07badaabc37d01be70de9[m
+Merge: 239e61e 0e01e13
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Jul 23 18:30:11 2021 -0300
+
+    Merge pull request #531 from biozz/patch-2
+    
+    Update community.md about Sublime Text 4 package
+
+[33mcommit 0e01e136703b6c543386e34e6cec1a71f9c88613[m
+Author: Ivan Elfimov <ielfimov@gmail.com>
+Date:   Fri Jul 23 23:45:22 2021 +0300
+
+    Update community.md about Sublime Text 4 package
+    
+    Added a simple abstract about Sublime Text 4 package with the links to the source code and package control.
+
+[33mcommit 239e61e71884337d56a6e8df6c83beeca45baca8[m[33m ([m[1;33mtag: v3.6.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 23:13:03 2021 -0300
+
+    v3.6.0
+
+[33mcommit 22549e9fd8b64e926add210b061f210da286bab2[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 22:04:15 2021 -0300
+
+    CHANGELOG: Fix typo
+
+[33mcommit 1f9fd24064e25ccbfb7465d4030cf47a6caea0f0[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 21:58:03 2021 -0300
+
+    Small improvement and CHANGELOG for #477
+
+[33mcommit a7594740e3d42d3a106f9507544e878f9cb9b505[m
+Merge: 945c72c 58c69e3
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 21:54:47 2021 -0300
+
+    Merge pull request #477 from mrngsht/sources_evaluation
+    
+    Evaluate sources also if status is up-to-date
+
+[33mcommit 945c72cf6cbb4bd94d8079378074e1384857c973[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 19:46:53 2021 -0300
+
+    Small optimization and bug fix: don't compute variables if not needed for `dotenv:`
+    
+    Closes #517
+
+[33mcommit 824b0c01326fac111fdf96f08183286498a0c9f8[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 19:33:36 2021 -0300
+
+    Improve error message
+
+[33mcommit 51e9f2f5795968309e928535ae108c319d585b81[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 19:13:04 2021 -0300
+
+    Site: Enable search
+
+[33mcommit e8ec33d9d0ae62c1f6706f794829b1c910a91e77[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jul 10 19:07:17 2021 -0300
+
+    Site: Return to light theme
+
+[33mcommit 3bbbaf12fd1002c6077b39138b1378b105209bbe[m[33m ([m[1;33mtag: v3.5.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Jul 4 21:53:22 2021 -0300
+
+    v3.5.0
+
+[33mcommit 30ffacd8790bfed25a6c070e7316438778df04fc[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Jul 4 21:47:36 2021 -0300
+
+    Update currency
+
+[33mcommit 75e9b7791c25c9dbbe13be45aa467f4966f105c7[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Jul 4 21:45:07 2021 -0300
+
+    Remove Patreon
+    
+    Also, do a few more updates.
+
+[33mcommit 4b665ab19a69176a08fd14319f3d0a5587771677[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Jun 5 16:04:01 2021 -0300
+
+    Add CHANGELOG entry for 08265ed1d7833bf3bbc4d0f060f7e3277e6f1d3e
+
+[33mcommit 08265ed1d7833bf3bbc4d0f060f7e3277e6f1d3e[m
+Author: Nicolas Fouché <nicolas.fouche@gmail.com>
+Date:   Sat Jun 5 15:54:10 2021 -0300
+
+    Allow vars in dotenv paths, including environment variables
+    
+    Closes #453
+    Closes #434
+    Ref #433
+    
+    Co-authored-by: Andrey Nering <andrey@nering.com.br>
+
+[33mcommit cded9af90fb9051a1a01075d420dba8696d6f175[m[33m ([m[1;33mtag: v3.4.3[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 30 23:03:10 2021 -0300
+
+    v3.4.3
+
+[33mcommit 4e1f2ad0174f3f2a62c464fcb8aac1aa656ccd71[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 30 22:48:48 2021 -0300
+
+    Enforce NO_COLOR=1 on tests to make sure it passes
+    
+    Closes #459
+    Fixes #480
+    Ref #343
+    Ref fatih/color#137
+
+[33mcommit 7f92b7072de0a07b456379f532765e0ca87a55a8[m
+Merge: 7f16325 4a589ba
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun May 30 22:19:21 2021 -0300
+
+    Merge pull request #496 from go-task/dependabot/go_modules/github.com/fatih/color-1.12.0
+    
+    Bump github.com/fatih/color from 1.11.0 to 1.12.0
+
+[33mcommit 4a589ba6a4343165f8a92164fb0779e595db9b7a[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat May 29 11:04:31 2021 +0000
+
+    Bump github.com/fatih/color from 1.11.0 to 1.12.0
+    
+    Bumps [github.com/fatih/color](https://github.com/fatih/color) from 1.11.0 to 1.12.0.
+    - [Release notes](https://github.com/fatih/color/releases)
+    - [Commits](https://github.com/fatih/color/compare/v1.11.0...v1.12.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 7f16325fcce3ebad2f65b50a2b5f70ddef23dd71[m
+Merge: bd6b348 b62e5bf
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat May 22 09:53:20 2021 -0300
+
+    Merge pull request #491 from go-task/dependabot/go_modules/mvdan.cc/sh/v3-3.3.0
+    
+    Bump mvdan.cc/sh/v3 from 3.2.4 to 3.3.0
+
+[33mcommit b62e5bf34c6afb4a1bdcd5a7b36d0230e4ea1e34[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat May 22 11:03:11 2021 +0000
+
+    Bump mvdan.cc/sh/v3 from 3.2.4 to 3.3.0
+    
+    Bumps [mvdan.cc/sh/v3](https://github.com/mvdan/sh) from 3.2.4 to 3.3.0.
+    - [Release notes](https://github.com/mvdan/sh/releases)
+    - [Changelog](https://github.com/mvdan/sh/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/mvdan/sh/compare/v3.2.4...v3.3.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit bd6b348cc7819a55a1e8f381ba273d89ddd7aeee[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu May 20 21:30:10 2021 -0300
+
+    Update CHANGELOG
+
+[33mcommit 62f35fe8c865e9cafe09ded251aff7b3f5cad302[m
+Merge: cb2cb46 b825ad6
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu May 20 21:26:43 2021 -0300
+
+    Merge pull request #485 from lpdyck/bug/watch-repects-task-dir
+    
+    Changes --watch to respect task directory
+
+[33mcommit cb2cb4659cb51d76294bb14d2c7a4b32f42f0005[m
+Merge: 2cb9987 a2c5841
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Thu May 20 21:23:42 2021 -0300
+
+    Merge pull request #490 from per1234/update-setup-task-action
+    
+    Update docs for new arduino/setup-task action repository
+
+[33mcommit a2c58415cf38e6074bc5c8da0d014c60562e706c[m
+Author: per1234 <accounts@perglass.com>
+Date:   Thu May 20 02:40:09 2021 -0700
+
+    Update docs for new arduino/setup-task action repository
+    
+    The GitHub Actions action for installing Task has graduated from its original home in the experimental `arduino/action`
+    repository with a move to a dedicated permanent repository at `arduino/setup-task`. This move was accompanied by
+    significant upgrades to the project infrastructure to facilitate its maintenance and quality assurance.
+    
+    A 1.0.0 release has been made and a `v1` ref that will track all releases in the major version 1 series. I have updated
+    the example snippet to use this `v1 ref because this will cause the user's workflows to use stable release versions of
+    the action while also benefiting from ongoing development to the action at each patch or minor release up until such time
+    as a new major release is made. At this time the user will be given the opportunity to evaluate whether any changes to
+    the workflow are required by the breaking change to the action that triggered the major release before manually updating
+    the major ref in the workflows (e.g., `uses: arduino/setup-task@v2`).
+
+[33mcommit 2cb9987c99c3119fe81faee8d45966fe60cdec5d[m
+Merge: f8545d4 36584cf
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Mon May 17 21:54:18 2021 -0300
+
+    Merge pull request #489 from go-task/dependabot/go_modules/github.com/fatih/color-1.11.0
+    
+    Bump github.com/fatih/color from 1.10.0 to 1.11.0
+
+[33mcommit 36584cfb7ceb94fdf8c6b572adc060c49bf47856[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat May 15 11:03:43 2021 +0000
+
+    Bump github.com/fatih/color from 1.10.0 to 1.11.0
+    
+    Bumps [github.com/fatih/color](https://github.com/fatih/color) from 1.10.0 to 1.11.0.
+    - [Release notes](https://github.com/fatih/color/releases)
+    - [Commits](https://github.com/fatih/color/compare/v1.10.0...v1.11.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit b825ad6a12abf405bb1762a7c6b8fb2646033767[m
+Author: Landon Dyck <landon@codemonkeysoftware.net>
+Date:   Sat May 8 15:02:08 2021 -0500
+
+    use status.Glob for watch globbing
+
+[33mcommit f8545d4c61ae59af6adcf35955b549cb0c4ed577[m[33m ([m[1;33mtag: v3.4.2[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Apr 23 18:11:31 2021 -0300
+
+    v3.4.2
+
+[33mcommit 9b42ef5d46afa9d8cfa253bdd8eff6a286b6d194[m
+Author: Oleg Butuzov <butuzov@made.ua>
+Date:   Sun Apr 18 13:52:55 2021 +0300
+
+    "file does not exist" improving for watchers
+    
+    Adds additional (initial missing) context to the go generic
+    `os.ErrNotExist` error, in addition to other errors that (possibly)
+    can be returned by `zglob.Glob`
+    
+    Closes #472
+
+[33mcommit 05ddfc0495b6154a6b4c20bbf5493628bf450216[m
+Merge: 53b2ceb 837fb71
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Apr 23 17:45:56 2021 -0300
+
+    Merge pull request #476 from Pix4D/fix-os-kill
+    
+    signals: do not try to catch uncatchable signals
+
+[33mcommit 53b2cebb66083ba837fafc931a5699e61ac2149b[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Fri Apr 23 17:33:13 2021 -0300
+
+    Updated the version output to use Go module build information if avalable. Enabled GoReleaser module proxying for verifiable builds.
+    
+    Co-authored-by: Jamie Edge <JamieEdge@users.noreply.github.com>
+    Co-authored-by: Carlos Alexandro Becker <caarlos0@gmail.com>
+
+[33mcommit 58c69e36a1177d51e734fd57ca9e1a154d9aa63b[m
+Author: mrngsht <mrngsht@gmail.com>
+Date:   Tue Apr 20 22:04:21 2021 +0900
+
+    Evaluate sources also if status is up-to-date
+
+[33mcommit 837fb71a246a4507d28bd640c54663546a280259[m
+Author: Marco Molteni <marco.molteni@pix4d.com>
+Date:   Tue Apr 20 14:57:23 2021 +0200
+
+    signals: do not try to catch uncatchable signals
+    
+    os.Kill is SIGKILL (kill -9), cannot be intercepted.
+    (see https://github.com/golang/go/issues/13080)
+
+[33mcommit 2e13cf5f748ff3c8146dee6dce4694b1bc4508cd[m
+Author: Marco Molteni <marco.molteni@pix4d.com>
+Date:   Tue Apr 20 14:54:24 2021 +0200
+
+    gitignore more editors
+
+[33mcommit 0ae1681d9caa99493bc010b75265bc167f315d96[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:57:08 2021 -0300
+
+    CHANGELOG: Fix typos
+
+[33mcommit ebb66ba8fb19565ab93cae520b05b320260f22f5[m[33m ([m[1;33mtag: v3.4.1[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:48:36 2021 -0300
+
+    v3.4.1
+
+[33mcommit e79354a039c004fd8e38850686d990525482a3c3[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:46:45 2021 -0300
+
+    Revert "Updated the version output to use Go module build information if available. Enabled GoReleaser module proxying for verifiable builds."
+    
+    This reverts commit 2a3f049336f309d4f6d5a76e3d5d629b70cee8d8.
+
+[33mcommit a57beb1de494e363d9ddc9f1020ddde38be2fede[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:31:56 2021 -0300
+
+    Website: Remove GitHub logo
+    
+    The website that hosted the SVG file is offline for a while.
+
+[33mcommit 1648c44ee2ac96a2ead6726fc40b73fd7b7cc745[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:25:42 2021 -0300
+
+    Website: Use dark theme
+
+[33mcommit efe47a149ea9107779cffd0bb9a203b284e52065[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:16:47 2021 -0300
+
+    Website: Remove "Examples" page
+
+[33mcommit 2d66a2f0f3d6fef08d51f0047882d4c7277819a9[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 17:12:39 2021 -0300
+
+    Improve YAML parse error reporting
+    
+    Fixes #467
+
+[33mcommit 43a1f1314ecab29065d704c9a2d92d42138cc088[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 11:58:49 2021 -0300
+
+    Website: Add a "Community" page
+
+[33mcommit 4f4b282d7caefce36387b229a10bece8e08588af[m
+Merge: b8da583 d3d4da1
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 10:53:03 2021 -0300
+
+    Merge pull request #471 from go-task/dependabot/go_modules/github.com/stretchr/testify-1.7.0
+    
+    Bump github.com/stretchr/testify from 1.5.1 to 1.7.0
+
+[33mcommit d3d4da18e5e90ef9147988fc440bb07652a9251e[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Apr 17 13:51:37 2021 +0000
+
+    Bump github.com/stretchr/testify from 1.5.1 to 1.7.0
+    
+    Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.5.1 to 1.7.0.
+    - [Release notes](https://github.com/stretchr/testify/releases)
+    - [Commits](https://github.com/stretchr/testify/compare/v1.5.1...v1.7.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit b8da58398615f9fd99f6e927850abe707359dfa3[m
+Merge: 73f6b42 6798e16
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 10:51:01 2021 -0300
+
+    Merge pull request #470 from go-task/dependabot/go_modules/github.com/fatih/color-1.10.0
+    
+    Bump github.com/fatih/color from 1.7.0 to 1.10.0
+
+[33mcommit 73f6b4271565b7994d6897b33bd49cf49acbf327[m
+Merge: c9cc64e 0e2a4ef
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 10:50:21 2021 -0300
+
+    Merge pull request #469 from go-task/dependabot/go_modules/github.com/radovskyb/watcher-1.0.7
+    
+    Bump github.com/radovskyb/watcher from 1.0.5 to 1.0.7
+
+[33mcommit 0e2a4efdaa13e19ef36bbec3a1dd087c6ab605e9[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Apr 17 13:47:39 2021 +0000
+
+    Bump github.com/radovskyb/watcher from 1.0.5 to 1.0.7
+    
+    Bumps [github.com/radovskyb/watcher](https://github.com/radovskyb/watcher) from 1.0.5 to 1.0.7.
+    - [Release notes](https://github.com/radovskyb/watcher/releases)
+    - [Commits](https://github.com/radovskyb/watcher/compare/1.0.5...v1.0.7)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 6798e16aafbc05a8eb84867598ac38cf48fb0d1d[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Apr 17 13:47:38 2021 +0000
+
+    Bump github.com/fatih/color from 1.7.0 to 1.10.0
+    
+    Bumps [github.com/fatih/color](https://github.com/fatih/color) from 1.7.0 to 1.10.0.
+    - [Release notes](https://github.com/fatih/color/releases)
+    - [Commits](https://github.com/fatih/color/compare/v1.7.0...v1.10.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit c9cc64ecfcb8940ec941eee953fda8662f3c9c2d[m
+Merge: dfae979 761f904
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 10:46:42 2021 -0300
+
+    Merge pull request #468 from go-task/dependabot/go_modules/github.com/mattn/go-zglob-0.0.3
+    
+    Bump github.com/mattn/go-zglob from 0.0.1 to 0.0.3
+
+[33mcommit 761f9045acdc7a6032e6c0712e5bc32eb20e67f6[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Apr 17 13:43:00 2021 +0000
+
+    Bump github.com/mattn/go-zglob from 0.0.1 to 0.0.3
+    
+    Bumps [github.com/mattn/go-zglob](https://github.com/mattn/go-zglob) from 0.0.1 to 0.0.3.
+    - [Release notes](https://github.com/mattn/go-zglob/releases)
+    - [Commits](https://github.com/mattn/go-zglob/compare/v0.0.1...v0.0.3)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit dfae979287178d08c437689ec9e34f155e280d62[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Apr 17 10:42:18 2021 -0300
+
+    Add .github/dependabot.yml
+
+[33mcommit fe917affd2b248d70c0084e8282a3190e16e4483[m
+Author: George Pollard <gpollard@microsoft.com>
+Date:   Fri Nov 6 09:27:42 2020 +1300
+
+    Include task name in log output
+
+[33mcommit d44207dd7f8a2a3509a293e019a731635d2f6dd1[m
+Merge: ec8b140 6f3d108
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Apr 4 15:48:19 2021 -0300
+
+    Merge pull request #463 from JamieEdge/update-install-docs
+    
+    Update Go modules installation documentation for Go 1.16
+
+[33mcommit ec8b1403bda40b3a7593f37247602fec2140a0a1[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Apr 4 15:32:39 2021 -0300
+
+    Use early return and add CHANGELOG for #462
+
+[33mcommit 6f3d108c1ed36c14ec530da8d8270fd4120789bc[m
+Author: Jamie Edge <JamieEdge@users.noreply.github.com>
+Date:   Sun Apr 4 17:31:41 2021 +0100
+
+    Updated the install script documentation.
+
+[33mcommit c34ee9c1f9b9b3effb18b429103b3eae7479f806[m
+Author: Jamie Edge <JamieEdge@users.noreply.github.com>
+Date:   Sun Apr 4 17:30:42 2021 +0100
+
+    Updated the Go modules installation documentation for Go 1.16.
+
+[33mcommit 2a3f049336f309d4f6d5a76e3d5d629b70cee8d8[m
+Author: Jamie Edge <JamieEdge@users.noreply.github.com>
+Date:   Sun Apr 4 12:57:58 2021 +0100
+
+    Updated the version output to use Go module build information if available. Enabled GoReleaser module proxying for verifiable builds.
+
+[33mcommit 0c91011e888fba901266c82d81230c5dcdc3e36e[m
+Merge: 8bcd871 29a8af5
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Mar 28 11:10:38 2021 -0300
+
+    Merge pull request #460 from patrick-mota/patch-1
+    
+    Fix typo default installation
+
+[33mcommit 8bcd8719aa283fd30d09c0de4b37d2684667b0e0[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Mar 28 10:45:36 2021 -0300
+
+    Docs: Add GO111MODULE=on to `go get` command
+
+[33mcommit 29a8af509b30b9f07e436ff6e86e116e1639d77d[m
+Author: Ganon <patrick.eightyfive@gmail.com>
+Date:   Fri Mar 26 13:19:45 2021 +0100
+
+    Fix typo default installation
+
+[33mcommit d3cd9f17f9d16dde7c16a20713324c37d8cea47c[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 20 13:30:38 2021 -0300
+
+    Documentation: Update link
+
+[33mcommit b9aea8c5ec324936efb616ea794d31268529852e[m[33m ([m[1;33mtag: v3.3.0[m[33m)[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 20 13:21:00 2021 -0300
+
+    v3.3.0
+
+[33mcommit 897619a961cd72ed3b173108df0a82752189d5cb[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 20 12:00:39 2021 -0300
+
+    Upgrade github.com/spf13/pflag to v1.0.5
+
+[33mcommit e6c4706b73f538e6e29cd78de00c9825f7796b80[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 20 11:56:19 2021 -0300
+
+    Add support for delegating CLI arguments with "--" and a special CLI_ARGS variable
+    
+    Closes #327
+
+[33mcommit 8994c50d34ae080011ec03ee906badf6697de472[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sat Mar 20 10:38:13 2021 -0300
+
+    Upgrade mvdan.cc/sh to v3.2.4
+
+[33mcommit 55b62e47eb002acc002a8039fcfe16b75b585720[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Mar 7 15:32:22 2021 -0300
+
+    Upgrade mvdan.cc/sh to v3.2.2
+
+[33mcommit c6ecf7037794f509b1187bb364248c42db30fb2b[m
+Author: Ross Hammermeister <glitch17@gmail.com>
+Date:   Fri Jun 12 12:09:53 2020 -0600
+
+    Adding a --concurrency (-C) flag
+
+[33mcommit f0cd7d27fbd58122fbc7d17815414843b41631c0[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Sun Mar 7 09:30:33 2021 -0300
+
+    Taskfile: Set CGO_ENABLED=0 globally
+    
+    We want that also for running tests, and not only for building it.
+
+[33mcommit f923bb499b57b6e2b91ec0200d186f53ca1dd820[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Feb 16 17:53:28 2021 -0300
+
+    CHANGELOG: Fix wrong year in release date
+
+[33mcommit aa3a29fed212593c46a6e951381771daf50e0982[m
+Author: Andrey Nering <andrey@nering.com.br>
+Date:   Tue Feb 16 17:52:32 2021 -0300
+
+    CHANGELOG: Add missing release dates

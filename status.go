@@ -28,6 +28,69 @@ func (e *Executor) Status(ctx context.Context, calls ...taskfile.Call) error {
 	return nil
 }
 
+// Status returns an error if any the of given tasks is not up-to-date
+
+func (e *Executor) CreateTaskDAG(ctx context.Context, taskStr map[string][]string, aretaskUpToDate map[string]bool, calls ...taskfile.Call) (map[string][]string, map[string]bool) {
+	var dep_calls []taskfile.Call
+	for _, call := range calls {
+		t, err := e.CompiledTask(call)
+		if err != nil {
+			// return err
+			fmt.Println(err)
+		}
+
+		isUpToDate, err := e.isTaskUpToDate(ctx, t)
+		taskName := t.Task
+		if _, ok := taskStr[taskName]; !ok {
+			taskStr[taskName] = make([]string, 1)
+		}
+
+		if len(t.Deps) == 0 {
+			aretaskUpToDate[taskName] = isUpToDate
+		} else {
+			for _, d := range t.Deps {
+				taskStr[taskName] = append(taskStr[taskName], d.Task)
+				dep_calls = append(dep_calls, taskfile.Call{Task: d.Task, Vars: d.Vars})
+			}
+			taskStr, aretaskUpToDate = e.CreateTaskDAG(ctx, taskStr, aretaskUpToDate, dep_calls...)
+		}
+	}
+
+	return taskStr, aretaskUpToDate
+}
+
+func (e *Executor) CheckStatusOfTaskAndDeps(ctx context.Context, aretaskUpToDate map[string]bool, calls ...taskfile.Call) map[string]bool {
+	var dep_calls []taskfile.Call
+	for _, call := range calls {
+		t, err := e.CompiledTask(call)
+		if err != nil {
+			// return err
+			fmt.Println(err)
+		}
+
+		taskName := t.Task
+		isUpToDate, err := e.isTaskUpToDate(ctx, t)
+		if err != nil {
+			// return err
+			fmt.Println(err)
+		}
+		aretaskUpToDate[taskName] = isUpToDate
+
+		if len(t.Deps) != 0 {
+			for _, d := range t.Deps {
+				dep_calls = append(dep_calls, taskfile.Call{Task: d.Task, Vars: d.Vars})
+				aretaskUpToDate = e.CheckStatusOfTaskAndDeps(ctx, aretaskUpToDate, dep_calls...)
+				if !aretaskUpToDate[d.Task] {
+					aretaskUpToDate[taskName] = false
+				}
+			}
+		}
+
+	}
+
+	return aretaskUpToDate
+}
+
 func (e *Executor) isTaskUpToDate(ctx context.Context, t *taskfile.Task) (bool, error) {
 	if len(t.Status) == 0 && len(t.Sources) == 0 {
 		return false, nil
